@@ -15,7 +15,8 @@ class DBN(object):
             theano_rng = None,
             n_ins=784,
             hidden_layers_size = [500,500],
-            n_outs = 10
+            n_outs = 10,
+            normal = False,
     ):
 
         self.sigmoid_layers=[]
@@ -59,7 +60,8 @@ class DBN(object):
                 n_visible=input_size,
                 n_hidden=hidden_layers_size[i],
                 W=sigmoid_layer.W,
-                hbias=sigmoid_layer.b
+                hbias=sigmoid_layer.b,
+                normal=normal
             )
 
             self.rbm_layers.append(rbm_layer)

@@ -14,12 +14,11 @@ from src.dbn.DBN import DBN
 
 def test_DBN(pretrain_lr=0.01, pretraining_epochs=100,
              k=1, finetune_lr=0.1, training_epochs=1000,
-             hidden_layers=[1000,1000,1000],
-             datasets=None, batch_size=10,fd=sys.stdout):
-
+             hidden_layers=[1000, 1000, 1000],
+             datasets=None, batch_size=10, fd=sys.stdout,
+             normal_distro=False):
     if datasets is None:
         datasets = prep_theano_data(load_data('mnist.pkl.gz'))
-
 
     train_set_x, train_set_y = datasets[0]
     valid_set_x, valid_set_y = datasets[1]
@@ -35,7 +34,8 @@ def test_DBN(pretrain_lr=0.01, pretraining_epochs=100,
     dbn = DBN(numpy_rng=numpy_rng,
               n_ins=28 * 28,
               hidden_layers_size=hidden_layers,
-              n_outs=10)
+              n_outs=10,
+              normal=normal_distro)
 
     fd.write('... getting the pretraining functions\n')
     pretraining_fns = dbn.pretraining_functions(train_set_x=train_set_x,
@@ -60,20 +60,22 @@ def test_DBN(pretrain_lr=0.01, pretraining_epochs=100,
             for batch_index in range(n_train_batches):
                 c.append(pretraining_fns[i](index=batch_index,
                                             lr=pretrain_lr))
-            fd.write('Pre-training layer %i, epoch %d, cost %s\n' % (i, epoch,numpy.mean(c, dtype='float64')))
-            if(epoch%5==0):
+            fd.write('Pre-training layer %i, epoch %d, cost %s\n' % (i, epoch, numpy.mean(c, dtype='float64')))
+            if (epoch % 5 == 0):
                 train_free_energy = dbn.rbm_layers[i].free_energy(train)
                 valid_free_energy = dbn.rbm_layers[i].free_energy(valid)
-                fd.write('Pre-training layer %i, epoch %d, representative training free energy %s\n' % (i, epoch,numpy.mean(train_free_energy.eval(),dtype='float64')))
-                fd.write('Pre-training layer %i, epoch %d, validation free energy %s\n' % (i, epoch,numpy.mean(valid_free_energy.eval(),dtype='float64')))
+                fd.write('Pre-training layer %i, epoch %d, representative training free energy %s\n' % (
+                i, epoch, numpy.mean(train_free_energy.eval(), dtype='float64')))
+                fd.write('Pre-training layer %i, epoch %d, validation free energy %s\n' % (
+                i, epoch, numpy.mean(valid_free_energy.eval(), dtype='float64')))
 
-        valid = T.dot(valid,dbn.rbm_layers[i].W)
+        valid = T.dot(valid, dbn.rbm_layers[i].W)
         train = T.dot(train, dbn.rbm_layers[i].W)
 
     end_time = timeit.default_timer()
 
     fd.write('The pretraining code for file ' + os.path.split(__file__)[1] +
-          ' ran for %.2fm' % ((end_time - start_time) / 60.))
+             ' ran for %.2fm' % ((end_time - start_time) / 60.))
 
     fd.write('... getting the finetuning functions')
     train_fn, validate_model, test_model = dbn.build_finetune_functions(
@@ -117,12 +119,12 @@ def test_DBN(pretrain_lr=0.01, pretraining_epochs=100,
                 validation_losses = validate_model()
                 this_validation_loss = numpy.mean(validation_losses, dtype='float64')
                 fd.write('epoch %i, minibatch %i/%i, validation error %f %%\n' % (
-                        epoch,
-                        minibatch_index + 1,
-                        n_train_batches,
-                        this_validation_loss * 100.
-                    )
+                    epoch,
+                    minibatch_index + 1,
+                    n_train_batches,
+                    this_validation_loss * 100.
                 )
+                         )
 
                 # if we got the best validation score until now
                 if this_validation_loss < best_validation_loss:
@@ -140,9 +142,9 @@ def test_DBN(pretrain_lr=0.01, pretraining_epochs=100,
                     test_losses = test_model()
                     test_score = numpy.mean(test_losses, dtype='float64')
                     fd.write(('     epoch %i, minibatch %i/%i, test error of '
-                           'best model %f %%\n') %
-                          (epoch, minibatch_index + 1, n_train_batches,
-                           test_score * 100.))
+                              'best model %f %%\n') %
+                             (epoch, minibatch_index + 1, n_train_batches,
+                              test_score * 100.))
 
             if patience <= iter:
                 done_looping = True
@@ -150,16 +152,16 @@ def test_DBN(pretrain_lr=0.01, pretraining_epochs=100,
 
     end_time = timeit.default_timer()
     fd.write(('Optimization complete with best validation score of %f %%, '
-           'obtained at iteration %i, '
-           'with test performance %f %%\n'
-           ) % (best_validation_loss * 100., best_iter + 1, test_score * 100.))
+              'obtained at iteration %i, '
+              'with test performance %f %%\n'
+              ) % (best_validation_loss * 100., best_iter + 1, test_score * 100.))
     fd.write('The fine tuning code for file ' + os.path.split(__file__)[1] +
-          ' ran for %.2fm\n' % ((end_time - start_time) / 60.))
+             ' ran for %.2fm\n' % ((end_time - start_time) / 60.))
 
 
 if __name__ == '__main__':
     datasets = load_data('mnist.pkl.gz')
-    fd = open('dbn.log','w+')
+    fd = open('dbn.log', 'w+')
     # trainx,trainy = datasets[0]
     # validx,validy = datasets[1]
     # testx,testy = datasets[2]
@@ -168,7 +170,7 @@ if __name__ == '__main__':
     theano_datasets = prep_theano_data(datasets)
 
     test_DBN(pretraining_epochs=100, pretrain_lr=0.01, k=1,
-             training_epochs=1000,finetune_lr=0.1,
+             training_epochs=1000, finetune_lr=0.1,
              datasets=theano_datasets, batch_size=10,
-             hidden_layers=[1000,1000,1000],fd=fd)
+             hidden_layers=[1000, 1000, 1000], fd=fd)
     fd.close()

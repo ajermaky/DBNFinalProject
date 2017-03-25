@@ -56,128 +56,37 @@ def aws(name):
 
         return newdata
 
-    prelr = .1
-    flr=.1
+    prelr = .04
+    flr=.07
     s = (5000,1000,1000)
     l = [1000,1000,1000]
     k=1
-    name = "2017_03_22_new_data_samples"
+    name = "2017_03_23_woot"
     fd = open('data/' + name + '_dbn.log', 'w+')
     fe = open('data/' + name + '_svm.log', 'w+')
     for j in range(3):
         fd.write("_______RUN: %d" % j)
         fe.write("_______RUN: %d" % j)
-        for s in [(1000,1000,1000),(2000,1000,1000),(3000,1000,1000),(4000,1000,1000),(5000,1000,1000)]:
-            data = getEvenData(datasets,s)
-            theano_datasets = prep_theano_data(data)
-            print('done prepping data')
-            fd.write("\n\n==========Sample Size: %s ===========\n\n" % str(s))
-            fe.write("\n\n==========Sample Size: %s ===========\n\n" % str(s))
-            test_DBN(pretraining_epochs=100, pretrain_lr=prelr, k=k,
-                     training_epochs=1000, finetune_lr=flr,
-                     datasets=theano_datasets, batch_size=10,
-                     hidden_layers=l, fd=fd, normal_distro=False)
 
-            for c in [10, 100]:
-                fe.write("\n---------------C: %f -------------\n" %c)
+        # data = getEvenData(datasets,s)
+        theano_datasets = prep_theano_data(datasets)
+        print('done prepping data')
+        fd.write("\n\n==========Layers: %s ===========\n\n" % str(l))
+        fe.write("\n\n==========Layers %s ===========\n\n" % str(l))
+        test_DBN(pretraining_epochs=100, pretrain_lr=prelr, k=k,
+                 training_epochs=1000, finetune_lr=flr,
+                 datasets=theano_datasets, batch_size=10,
+                 hidden_layers=l, fd=fd, normal_distro=False)
 
-                run_svm(digits=data, C=c, fd=fe)
+        for c in [10, 100]:
+            fe.write("\n---------------C: %f -------------\n" %c)
 
-    fd.close()
-    fe.close()
-
-
-
-    prelr = .1
-    flr=.1
-    s = (5000,1000,1000)
-    l = [1000,1000,1000]
-    k=1
-    name = "2017_03_22_new_data_samples_valid_500"
-    fd = open('data/' + name + '_dbn.log', 'w+')
-    fe = open('data/' + name + '_svm.log', 'w+')
-    for j in range(3):
-        fd.write("_______RUN: %d" % j)
-        fe.write("_______RUN: %d" % j)
-        for s in [(5000,500,500),(5000,1000,1000),(5000,1500,1500),(5000,2000,2000)]:
-            data = getEvenData(datasets,s)
-            theano_datasets = prep_theano_data(data)
-            print('done prepping data')
-            fd.write("\n\n==========Sample Size: %s ===========\n\n" % str(s))
-            fe.write("\n\n==========Sample Size: %s ===========\n\n" % str(s))
-            test_DBN(pretraining_epochs=100, pretrain_lr=prelr, k=k,
-                     training_epochs=1000, finetune_lr=flr,
-                     datasets=theano_datasets, batch_size=10,
-                     hidden_layers=l, fd=fd, normal_distro=False)
-
-            for c in [10, 100]:
-                fe.write("\n---------------C: %f -------------\n" %c)
-
-                run_svm(digits=data, C=c, fd=fe)
-
-    fd.close()
-    fe.close()
-
-    prelr = .1
-    flr=.1
-    s = (5000,1000,1000)
-    l = [1000,1000,1000]
-    k=1
-    name = "2017_03_22_new_data_prelr"
-    fd = open('data/' + name + '_dbn.log', 'w+')
-    fe = open('data/' + name + '_svm.log', 'w+')
-    for j in range(3):
-        fd.write("_______RUN: %d" % j)
-        fe.write("_______RUN: %d" % j)
-        for prelr in [.5,.1,.07,.04,.01]:
-            data = getEvenData(datasets,s)
-            theano_datasets = prep_theano_data(data)
-            print('done prepping data')
-            fd.write("\n\n==========Prelr: %s ===========\n\n" % str(prelr))
-            fe.write("\n\n==========Prelr: %s ===========\n\n" % str(prelr))
-            test_DBN(pretraining_epochs=100, pretrain_lr=prelr, k=k,
-                     training_epochs=1000, finetune_lr=flr,
-                     datasets=theano_datasets, batch_size=10,
-                     hidden_layers=l, fd=fd, normal_distro=False)
-
-            for c in [10, 100]:
-                fe.write("\n---------------C: %f -------------\n" %c)
-
-                run_svm(digits=data, C=c, fd=fe)
+            run_svm(digits=data, C=c, fd=fe)
 
     fd.close()
     fe.close()
 
 
-    prelr = .1
-    flr=.1
-    s = (5000,1000,1000)
-    l = [1000,1000,1000]
-    k=1
-    name = "2017_03_22_new_data_layers"
-    fd = open('data/' + name + '_dbn.log', 'w+')
-    fe = open('data/' + name + '_svm.log', 'w+')
-    for j in range(3):
-        fd.write("_______RUN: %d" % j)
-        fe.write("_______RUN: %d" % j)
-        for l in [[1000],[1000,1000],[1000,1000,1000]]:
-            data = getEvenData(datasets,s)
-            theano_datasets = prep_theano_data(data)
-            print('done prepping data')
-            fd.write("\n\n==========Layer Size: %s ===========\n\n" % str(l))
-            fe.write("\n\n==========Layer Size: %s ===========\n\n" % str(l))
-            test_DBN(pretraining_epochs=100, pretrain_lr=prelr, k=k,
-                     training_epochs=1000, finetune_lr=flr,
-                     datasets=theano_datasets, batch_size=10,
-                     hidden_layers=l, fd=fd, normal_distro=False)
-
-            for c in [10, 100]:
-                fe.write("\n---------------C: %f -------------\n" %c)
-
-                run_svm(digits=data, C=c, fd=fe)
-
-    fd.close()
-    fe.close()
     # datasets = ((trainx[:100],trainy[:100]),(validx[:50],validy[:50]),(testx[:50],testy[:50]))
 
 

@@ -1,0 +1,2001 @@
+_______RUN: 0
+
+==========Sample: (1000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.89      0.96      0.92        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.84      0.83        50
+          3       0.94      0.66      0.78        50
+          4       0.82      0.92      0.87        50
+          5       0.68      0.78      0.73        50
+          6       0.89      0.84      0.87        50
+          7       0.80      0.86      0.83        50
+          8       0.89      0.78      0.83        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.86      0.85      0.85       500
+
+Accuracy: 0.852
+Confusion matrix:
+[[48  0  0  0  1  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 42  0  1  0  2  3  1  0]
+ [ 0  0  2 33  0 11  0  2  2  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 1  1  1  1  2 39  0  3  1  1]
+ [ 2  0  3  0  1  2 42  0  0  0]
+ [ 0  0  3  0  2  0  0 43  0  2]
+ [ 2  0  0  1  2  2  1  1 39  2]
+ [ 0  0  0  0  1  2  0  2  1 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.96      0.93        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.82      0.72      0.77        50
+          4       0.86      0.86      0.86        50
+          5       0.66      0.78      0.72        50
+          6       0.95      0.84      0.89        50
+          7       0.85      0.80      0.82        50
+          8       0.89      0.78      0.83        50
+          9       0.81      0.84      0.82        50
+
+avg / total       0.85      0.85      0.85       500
+
+Accuracy: 0.85
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 46  0  1  0  0  2  0  0]
+ [ 0  0  2 36  0 10  0  0  2  0]
+ [ 0  0  0  0 43  1  1  0  0  5]
+ [ 1  1  1  1  1 39  0  3  2  1]
+ [ 1  0  3  0  1  3 42  0  0  0]
+ [ 0  0  4  1  2  0  0 40  0  3]
+ [ 2  0  0  3  1  3  0  1 39  1]
+ [ 0  0  0  3  1  2  0  1  1 42]]
+
+==========Sample: (2000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.92      0.70      0.80        50
+          4       0.89      0.96      0.92        50
+          5       0.76      0.88      0.81        50
+          6       0.98      0.88      0.93        50
+          7       0.85      0.90      0.87        50
+          8       0.91      0.80      0.85        50
+          9       0.88      0.88      0.88        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.888
+Confusion matrix:
+[[48  0  0  0  0  2  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  2 35  0  9  0  2  1  1]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 1  0  1  1  0 44  0  2  0  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  2  0  2  0  0 45  0  1]
+ [ 1  1  1  1  1  2  1  0 40  2]
+ [ 0  0  0  1  1  0  0  2  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.81      0.92      0.86        50
+          3       0.87      0.80      0.83        50
+          4       0.88      0.92      0.90        50
+          5       0.83      0.86      0.84        50
+          6       0.94      0.88      0.91        50
+          7       0.83      0.90      0.87        50
+          8       0.93      0.76      0.84        50
+          9       0.92      0.90      0.91        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.89
+Confusion matrix:
+[[48  0  1  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  1  1 40  0  5  0  2  1  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 0  0  1  2  0 43  0  2  1  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  3  0  1  0  0 45  0  1]
+ [ 2  0  2  2  2  1  1  2 38  0]
+ [ 0  0  0  2  1  1  0  1  0 45]]
+
+==========Sample: (3000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.06m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.98      0.96        50
+          1       0.98      1.00      0.99        50
+          2       0.92      0.92      0.92        50
+          3       0.90      0.76      0.83        50
+          4       0.91      1.00      0.95        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.84      0.94      0.89        50
+          8       0.91      0.80      0.85        50
+          9       0.94      0.88      0.91        50
+
+avg / total       0.91      0.91      0.91       500
+
+Accuracy: 0.908
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  1  1  1]
+ [ 0  0  0 38  0  7  0  4  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 47  0  1]
+ [ 0  1  2  1  1  2  1  1 40  1]
+ [ 0  0  0  1  0  0  0  3  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.05m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        50
+          1       0.96      1.00      0.98        50
+          2       0.88      0.92      0.90        50
+          3       0.89      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.78      0.90      0.83        50
+          6       0.96      0.90      0.93        50
+          7       0.90      0.88      0.89        50
+          8       0.91      0.78      0.84        50
+          9       0.93      0.86      0.90        50
+
+avg / total       0.90      0.90      0.90       500
+
+Accuracy: 0.902
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 46  0  1  0  0  1  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  0  0 49  0  0  0  0  1]
+ [ 0  0  0  3  0 45  1  0  1  0]
+ [ 1  0  2  0  1  1 45  0  0  0]
+ [ 0  0  3  0  1  0  0 44  0  2]
+ [ 1  1  1  1  1  4  0  2 39  0]
+ [ 0  0  0  1  3  1  0  1  1 43]]
+
+==========Sample: (4000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.10m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.98      0.94        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.94      0.94        50
+          3       0.91      0.80      0.85        50
+          4       0.88      0.98      0.92        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.88      0.92      0.90        50
+          8       0.93      0.86      0.90        50
+          9       0.96      0.86      0.91        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 47  0  1  0  0  1  1  0]
+ [ 0  0  0 40  0  7  0  2  1  0]
+ [ 0  0  0  0 49  0  1  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 46  0  2]
+ [ 2  0  1  1  1  1  0  1 43  0]
+ [ 0  0  0  1  2  1  0  2  1 43]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.08m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.98      0.98      0.98        50
+          1       0.98      1.00      0.99        50
+          2       0.94      0.90      0.92        50
+          3       0.91      0.86      0.89        50
+          4       0.91      0.96      0.93        50
+          5       0.81      0.88      0.85        50
+          6       0.98      0.94      0.96        50
+          7       0.85      0.92      0.88        50
+          8       0.93      0.82      0.87        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 45  0  0  0  0  2  1  1]
+ [ 0  0  0 43  0  6  0  1  0  0]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 0  0  0  2  0 44  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  0  0  1  0  0 46  0  3]
+ [ 0  0  1  1  1  2  0  3 41  1]
+ [ 0  0  0  1  2  1  0  2  0 44]]
+
+==========Sample: (5000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.14m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.92      0.98      0.95        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.92      0.93        50
+          3       0.91      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.82      0.92      0.87        50
+          6       0.98      0.92      0.95        50
+          7       0.91      0.96      0.93        50
+          8       0.91      0.86      0.89        50
+          9       0.98      0.84      0.90        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  1  0 49  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  1  0  1  0 46  0  0  0]
+ [ 0  0  0  0  2  0  0 48  0  0]
+ [ 1  0  1  1  1  2  0  0 43  1]
+ [ 0  0  0  1  2  1  0  2  2 42]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.11m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.96      1.00      0.98        50
+          2       0.96      0.88      0.92        50
+          3       0.88      0.90      0.89        50
+          4       0.89      1.00      0.94        50
+          5       0.88      0.86      0.87        50
+          6       0.96      0.94      0.95        50
+          7       0.90      0.92      0.91        50
+          8       0.91      0.86      0.89        50
+          9       0.94      0.90      0.92        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 44  1  0  0  0  2  1  1]
+ [ 0  0  0 45  0  3  0  1  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 43  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  1  0  2  0  0 46  0  1]
+ [ 1  0  0  2  1  1  0  2 43  0]
+ [ 0  1  0  1  2  1  0  0  0 45]]_______RUN: 1
+
+==========Sample: (1000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.89      0.96      0.92        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.84      0.83        50
+          3       0.94      0.66      0.78        50
+          4       0.82      0.92      0.87        50
+          5       0.68      0.78      0.73        50
+          6       0.89      0.84      0.87        50
+          7       0.80      0.86      0.83        50
+          8       0.89      0.78      0.83        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.86      0.85      0.85       500
+
+Accuracy: 0.852
+Confusion matrix:
+[[48  0  0  0  1  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 42  0  1  0  2  3  1  0]
+ [ 0  0  2 33  0 11  0  2  2  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 1  1  1  1  2 39  0  3  1  1]
+ [ 2  0  3  0  1  2 42  0  0  0]
+ [ 0  0  3  0  2  0  0 43  0  2]
+ [ 2  0  0  1  2  2  1  1 39  2]
+ [ 0  0  0  0  1  2  0  2  1 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.96      0.93        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.82      0.72      0.77        50
+          4       0.86      0.86      0.86        50
+          5       0.66      0.78      0.72        50
+          6       0.95      0.84      0.89        50
+          7       0.85      0.80      0.82        50
+          8       0.89      0.78      0.83        50
+          9       0.81      0.84      0.82        50
+
+avg / total       0.85      0.85      0.85       500
+
+Accuracy: 0.85
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 46  0  1  0  0  2  0  0]
+ [ 0  0  2 36  0 10  0  0  2  0]
+ [ 0  0  0  0 43  1  1  0  0  5]
+ [ 1  1  1  1  1 39  0  3  2  1]
+ [ 1  0  3  0  1  3 42  0  0  0]
+ [ 0  0  4  1  2  0  0 40  0  3]
+ [ 2  0  0  3  1  3  0  1 39  1]
+ [ 0  0  0  3  1  2  0  1  1 42]]
+
+==========Sample: (2000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.92      0.70      0.80        50
+          4       0.89      0.96      0.92        50
+          5       0.76      0.88      0.81        50
+          6       0.98      0.88      0.93        50
+          7       0.85      0.90      0.87        50
+          8       0.91      0.80      0.85        50
+          9       0.88      0.88      0.88        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.888
+Confusion matrix:
+[[48  0  0  0  0  2  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  2 35  0  9  0  2  1  1]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 1  0  1  1  0 44  0  2  0  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  2  0  2  0  0 45  0  1]
+ [ 1  1  1  1  1  2  1  0 40  2]
+ [ 0  0  0  1  1  0  0  2  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.81      0.92      0.86        50
+          3       0.87      0.80      0.83        50
+          4       0.88      0.92      0.90        50
+          5       0.83      0.86      0.84        50
+          6       0.94      0.88      0.91        50
+          7       0.83      0.90      0.87        50
+          8       0.93      0.76      0.84        50
+          9       0.92      0.90      0.91        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.89
+Confusion matrix:
+[[48  0  1  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  1  1 40  0  5  0  2  1  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 0  0  1  2  0 43  0  2  1  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  3  0  1  0  0 45  0  1]
+ [ 2  0  2  2  2  1  1  2 38  0]
+ [ 0  0  0  2  1  1  0  1  0 45]]
+
+==========Sample: (3000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.06m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.98      0.96        50
+          1       0.98      1.00      0.99        50
+          2       0.92      0.92      0.92        50
+          3       0.90      0.76      0.83        50
+          4       0.91      1.00      0.95        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.84      0.94      0.89        50
+          8       0.91      0.80      0.85        50
+          9       0.94      0.88      0.91        50
+
+avg / total       0.91      0.91      0.91       500
+
+Accuracy: 0.908
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  1  1  1]
+ [ 0  0  0 38  0  7  0  4  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 47  0  1]
+ [ 0  1  2  1  1  2  1  1 40  1]
+ [ 0  0  0  1  0  0  0  3  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.05m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        50
+          1       0.96      1.00      0.98        50
+          2       0.88      0.92      0.90        50
+          3       0.89      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.78      0.90      0.83        50
+          6       0.96      0.90      0.93        50
+          7       0.90      0.88      0.89        50
+          8       0.91      0.78      0.84        50
+          9       0.93      0.86      0.90        50
+
+avg / total       0.90      0.90      0.90       500
+
+Accuracy: 0.902
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 46  0  1  0  0  1  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  0  0 49  0  0  0  0  1]
+ [ 0  0  0  3  0 45  1  0  1  0]
+ [ 1  0  2  0  1  1 45  0  0  0]
+ [ 0  0  3  0  1  0  0 44  0  2]
+ [ 1  1  1  1  1  4  0  2 39  0]
+ [ 0  0  0  1  3  1  0  1  1 43]]
+
+==========Sample: (4000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.10m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.98      0.94        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.94      0.94        50
+          3       0.91      0.80      0.85        50
+          4       0.88      0.98      0.92        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.88      0.92      0.90        50
+          8       0.93      0.86      0.90        50
+          9       0.96      0.86      0.91        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 47  0  1  0  0  1  1  0]
+ [ 0  0  0 40  0  7  0  2  1  0]
+ [ 0  0  0  0 49  0  1  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 46  0  2]
+ [ 2  0  1  1  1  1  0  1 43  0]
+ [ 0  0  0  1  2  1  0  2  1 43]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.08m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.98      0.98      0.98        50
+          1       0.98      1.00      0.99        50
+          2       0.94      0.90      0.92        50
+          3       0.91      0.86      0.89        50
+          4       0.91      0.96      0.93        50
+          5       0.81      0.88      0.85        50
+          6       0.98      0.94      0.96        50
+          7       0.85      0.92      0.88        50
+          8       0.93      0.82      0.87        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 45  0  0  0  0  2  1  1]
+ [ 0  0  0 43  0  6  0  1  0  0]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 0  0  0  2  0 44  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  0  0  1  0  0 46  0  3]
+ [ 0  0  1  1  1  2  0  3 41  1]
+ [ 0  0  0  1  2  1  0  2  0 44]]
+
+==========Sample: (5000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.14m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.92      0.98      0.95        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.92      0.93        50
+          3       0.91      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.82      0.92      0.87        50
+          6       0.98      0.92      0.95        50
+          7       0.91      0.96      0.93        50
+          8       0.91      0.86      0.89        50
+          9       0.98      0.84      0.90        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  1  0 49  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  1  0  1  0 46  0  0  0]
+ [ 0  0  0  0  2  0  0 48  0  0]
+ [ 1  0  1  1  1  2  0  0 43  1]
+ [ 0  0  0  1  2  1  0  2  2 42]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.12m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.96      1.00      0.98        50
+          2       0.96      0.88      0.92        50
+          3       0.88      0.90      0.89        50
+          4       0.89      1.00      0.94        50
+          5       0.88      0.86      0.87        50
+          6       0.96      0.94      0.95        50
+          7       0.90      0.92      0.91        50
+          8       0.91      0.86      0.89        50
+          9       0.94      0.90      0.92        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 44  1  0  0  0  2  1  1]
+ [ 0  0  0 45  0  3  0  1  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 43  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  1  0  2  0  0 46  0  1]
+ [ 1  0  0  2  1  1  0  2 43  0]
+ [ 0  1  0  1  2  1  0  0  0 45]]_______RUN: 2
+
+==========Sample: (1000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.89      0.96      0.92        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.84      0.83        50
+          3       0.94      0.66      0.78        50
+          4       0.82      0.92      0.87        50
+          5       0.68      0.78      0.73        50
+          6       0.89      0.84      0.87        50
+          7       0.80      0.86      0.83        50
+          8       0.89      0.78      0.83        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.86      0.85      0.85       500
+
+Accuracy: 0.852
+Confusion matrix:
+[[48  0  0  0  1  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 42  0  1  0  2  3  1  0]
+ [ 0  0  2 33  0 11  0  2  2  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 1  1  1  1  2 39  0  3  1  1]
+ [ 2  0  3  0  1  2 42  0  0  0]
+ [ 0  0  3  0  2  0  0 43  0  2]
+ [ 2  0  0  1  2  2  1  1 39  2]
+ [ 0  0  0  0  1  2  0  2  1 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.96      0.93        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.82      0.72      0.77        50
+          4       0.86      0.86      0.86        50
+          5       0.66      0.78      0.72        50
+          6       0.95      0.84      0.89        50
+          7       0.85      0.80      0.82        50
+          8       0.89      0.78      0.83        50
+          9       0.81      0.84      0.82        50
+
+avg / total       0.85      0.85      0.85       500
+
+Accuracy: 0.85
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 46  0  1  0  0  2  0  0]
+ [ 0  0  2 36  0 10  0  0  2  0]
+ [ 0  0  0  0 43  1  1  0  0  5]
+ [ 1  1  1  1  1 39  0  3  2  1]
+ [ 1  0  3  0  1  3 42  0  0  0]
+ [ 0  0  4  1  2  0  0 40  0  3]
+ [ 2  0  0  3  1  3  0  1 39  1]
+ [ 0  0  0  3  1  2  0  1  1 42]]
+
+==========Sample: (2000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.04m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.92      0.70      0.80        50
+          4       0.89      0.96      0.92        50
+          5       0.76      0.88      0.81        50
+          6       0.98      0.88      0.93        50
+          7       0.85      0.90      0.87        50
+          8       0.91      0.80      0.85        50
+          9       0.88      0.88      0.88        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.888
+Confusion matrix:
+[[48  0  0  0  0  2  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  2 35  0  9  0  2  1  1]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 1  0  1  1  0 44  0  2  0  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  2  0  2  0  0 45  0  1]
+ [ 1  1  1  1  1  2  1  0 40  2]
+ [ 0  0  0  1  1  0  0  2  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.81      0.92      0.86        50
+          3       0.87      0.80      0.83        50
+          4       0.88      0.92      0.90        50
+          5       0.83      0.86      0.84        50
+          6       0.94      0.88      0.91        50
+          7       0.83      0.90      0.87        50
+          8       0.93      0.76      0.84        50
+          9       0.92      0.90      0.91        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.89
+Confusion matrix:
+[[48  0  1  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  1  1 40  0  5  0  2  1  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 0  0  1  2  0 43  0  2  1  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  3  0  1  0  0 45  0  1]
+ [ 2  0  2  2  2  1  1  2 38  0]
+ [ 0  0  0  2  1  1  0  1  0 45]]
+
+==========Sample: (3000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.06m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.98      0.96        50
+          1       0.98      1.00      0.99        50
+          2       0.92      0.92      0.92        50
+          3       0.90      0.76      0.83        50
+          4       0.91      1.00      0.95        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.84      0.94      0.89        50
+          8       0.91      0.80      0.85        50
+          9       0.94      0.88      0.91        50
+
+avg / total       0.91      0.91      0.91       500
+
+Accuracy: 0.908
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  1  1  1]
+ [ 0  0  0 38  0  7  0  4  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 47  0  1]
+ [ 0  1  2  1  1  2  1  1 40  1]
+ [ 0  0  0  1  0  0  0  3  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.05m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        50
+          1       0.96      1.00      0.98        50
+          2       0.88      0.92      0.90        50
+          3       0.89      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.78      0.90      0.83        50
+          6       0.96      0.90      0.93        50
+          7       0.90      0.88      0.89        50
+          8       0.91      0.78      0.84        50
+          9       0.93      0.86      0.90        50
+
+avg / total       0.90      0.90      0.90       500
+
+Accuracy: 0.902
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 46  0  1  0  0  1  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  0  0 49  0  0  0  0  1]
+ [ 0  0  0  3  0 45  1  0  1  0]
+ [ 1  0  2  0  1  1 45  0  0  0]
+ [ 0  0  3  0  1  0  0 44  0  2]
+ [ 1  1  1  1  1  4  0  2 39  0]
+ [ 0  0  0  1  3  1  0  1  1 43]]
+
+==========Sample: (4000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.10m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.98      0.94        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.94      0.94        50
+          3       0.91      0.80      0.85        50
+          4       0.88      0.98      0.92        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.88      0.92      0.90        50
+          8       0.93      0.86      0.90        50
+          9       0.96      0.86      0.91        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 47  0  1  0  0  1  1  0]
+ [ 0  0  0 40  0  7  0  2  1  0]
+ [ 0  0  0  0 49  0  1  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 46  0  2]
+ [ 2  0  1  1  1  1  0  1 43  0]
+ [ 0  0  0  1  2  1  0  2  1 43]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.08m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.98      0.98      0.98        50
+          1       0.98      1.00      0.99        50
+          2       0.94      0.90      0.92        50
+          3       0.91      0.86      0.89        50
+          4       0.91      0.96      0.93        50
+          5       0.81      0.88      0.85        50
+          6       0.98      0.94      0.96        50
+          7       0.85      0.92      0.88        50
+          8       0.93      0.82      0.87        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 45  0  0  0  0  2  1  1]
+ [ 0  0  0 43  0  6  0  1  0  0]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 0  0  0  2  0 44  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  0  0  1  0  0 46  0  3]
+ [ 0  0  1  1  1  2  0  3 41  1]
+ [ 0  0  0  1  2  1  0  2  0 44]]
+
+==========Sample: (5000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.14m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.92      0.98      0.95        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.92      0.93        50
+          3       0.91      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.82      0.92      0.87        50
+          6       0.98      0.92      0.95        50
+          7       0.91      0.96      0.93        50
+          8       0.91      0.86      0.89        50
+          9       0.98      0.84      0.90        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  1  0 49  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  1  0  1  0 46  0  0  0]
+ [ 0  0  0  0  2  0  0 48  0  0]
+ [ 1  0  1  1  1  2  0  0 43  1]
+ [ 0  0  0  1  2  1  0  2  2 42]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.11m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.96      1.00      0.98        50
+          2       0.96      0.88      0.92        50
+          3       0.88      0.90      0.89        50
+          4       0.89      1.00      0.94        50
+          5       0.88      0.86      0.87        50
+          6       0.96      0.94      0.95        50
+          7       0.90      0.92      0.91        50
+          8       0.91      0.86      0.89        50
+          9       0.94      0.90      0.92        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 44  1  0  0  0  2  1  1]
+ [ 0  0  0 45  0  3  0  1  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 43  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  1  0  2  0  0 46  0  1]
+ [ 1  0  0  2  1  1  0  2 43  0]
+ [ 0  1  0  1  2  1  0  0  0 45]]_______RUN: 3
+
+==========Sample: (1000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.89      0.96      0.92        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.84      0.83        50
+          3       0.94      0.66      0.78        50
+          4       0.82      0.92      0.87        50
+          5       0.68      0.78      0.73        50
+          6       0.89      0.84      0.87        50
+          7       0.80      0.86      0.83        50
+          8       0.89      0.78      0.83        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.86      0.85      0.85       500
+
+Accuracy: 0.852
+Confusion matrix:
+[[48  0  0  0  1  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 42  0  1  0  2  3  1  0]
+ [ 0  0  2 33  0 11  0  2  2  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 1  1  1  1  2 39  0  3  1  1]
+ [ 2  0  3  0  1  2 42  0  0  0]
+ [ 0  0  3  0  2  0  0 43  0  2]
+ [ 2  0  0  1  2  2  1  1 39  2]
+ [ 0  0  0  0  1  2  0  2  1 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.96      0.93        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.82      0.72      0.77        50
+          4       0.86      0.86      0.86        50
+          5       0.66      0.78      0.72        50
+          6       0.95      0.84      0.89        50
+          7       0.85      0.80      0.82        50
+          8       0.89      0.78      0.83        50
+          9       0.81      0.84      0.82        50
+
+avg / total       0.85      0.85      0.85       500
+
+Accuracy: 0.85
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 46  0  1  0  0  2  0  0]
+ [ 0  0  2 36  0 10  0  0  2  0]
+ [ 0  0  0  0 43  1  1  0  0  5]
+ [ 1  1  1  1  1 39  0  3  2  1]
+ [ 1  0  3  0  1  3 42  0  0  0]
+ [ 0  0  4  1  2  0  0 40  0  3]
+ [ 2  0  0  3  1  3  0  1 39  1]
+ [ 0  0  0  3  1  2  0  1  1 42]]
+
+==========Sample: (2000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.92      0.70      0.80        50
+          4       0.89      0.96      0.92        50
+          5       0.76      0.88      0.81        50
+          6       0.98      0.88      0.93        50
+          7       0.85      0.90      0.87        50
+          8       0.91      0.80      0.85        50
+          9       0.88      0.88      0.88        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.888
+Confusion matrix:
+[[48  0  0  0  0  2  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  2 35  0  9  0  2  1  1]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 1  0  1  1  0 44  0  2  0  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  2  0  2  0  0 45  0  1]
+ [ 1  1  1  1  1  2  1  0 40  2]
+ [ 0  0  0  1  1  0  0  2  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.81      0.92      0.86        50
+          3       0.87      0.80      0.83        50
+          4       0.88      0.92      0.90        50
+          5       0.83      0.86      0.84        50
+          6       0.94      0.88      0.91        50
+          7       0.83      0.90      0.87        50
+          8       0.93      0.76      0.84        50
+          9       0.92      0.90      0.91        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.89
+Confusion matrix:
+[[48  0  1  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  1  1 40  0  5  0  2  1  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 0  0  1  2  0 43  0  2  1  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  3  0  1  0  0 45  0  1]
+ [ 2  0  2  2  2  1  1  2 38  0]
+ [ 0  0  0  2  1  1  0  1  0 45]]
+
+==========Sample: (3000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.06m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.98      0.96        50
+          1       0.98      1.00      0.99        50
+          2       0.92      0.92      0.92        50
+          3       0.90      0.76      0.83        50
+          4       0.91      1.00      0.95        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.84      0.94      0.89        50
+          8       0.91      0.80      0.85        50
+          9       0.94      0.88      0.91        50
+
+avg / total       0.91      0.91      0.91       500
+
+Accuracy: 0.908
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  1  1  1]
+ [ 0  0  0 38  0  7  0  4  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 47  0  1]
+ [ 0  1  2  1  1  2  1  1 40  1]
+ [ 0  0  0  1  0  0  0  3  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.05m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        50
+          1       0.96      1.00      0.98        50
+          2       0.88      0.92      0.90        50
+          3       0.89      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.78      0.90      0.83        50
+          6       0.96      0.90      0.93        50
+          7       0.90      0.88      0.89        50
+          8       0.91      0.78      0.84        50
+          9       0.93      0.86      0.90        50
+
+avg / total       0.90      0.90      0.90       500
+
+Accuracy: 0.902
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 46  0  1  0  0  1  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  0  0 49  0  0  0  0  1]
+ [ 0  0  0  3  0 45  1  0  1  0]
+ [ 1  0  2  0  1  1 45  0  0  0]
+ [ 0  0  3  0  1  0  0 44  0  2]
+ [ 1  1  1  1  1  4  0  2 39  0]
+ [ 0  0  0  1  3  1  0  1  1 43]]
+
+==========Sample: (4000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.10m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.98      0.94        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.94      0.94        50
+          3       0.91      0.80      0.85        50
+          4       0.88      0.98      0.92        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.88      0.92      0.90        50
+          8       0.93      0.86      0.90        50
+          9       0.96      0.86      0.91        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 47  0  1  0  0  1  1  0]
+ [ 0  0  0 40  0  7  0  2  1  0]
+ [ 0  0  0  0 49  0  1  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 46  0  2]
+ [ 2  0  1  1  1  1  0  1 43  0]
+ [ 0  0  0  1  2  1  0  2  1 43]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.08m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.98      0.98      0.98        50
+          1       0.98      1.00      0.99        50
+          2       0.94      0.90      0.92        50
+          3       0.91      0.86      0.89        50
+          4       0.91      0.96      0.93        50
+          5       0.81      0.88      0.85        50
+          6       0.98      0.94      0.96        50
+          7       0.85      0.92      0.88        50
+          8       0.93      0.82      0.87        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 45  0  0  0  0  2  1  1]
+ [ 0  0  0 43  0  6  0  1  0  0]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 0  0  0  2  0 44  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  0  0  1  0  0 46  0  3]
+ [ 0  0  1  1  1  2  0  3 41  1]
+ [ 0  0  0  1  2  1  0  2  0 44]]
+
+==========Sample: (5000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.14m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.92      0.98      0.95        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.92      0.93        50
+          3       0.91      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.82      0.92      0.87        50
+          6       0.98      0.92      0.95        50
+          7       0.91      0.96      0.93        50
+          8       0.91      0.86      0.89        50
+          9       0.98      0.84      0.90        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  1  0 49  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  1  0  1  0 46  0  0  0]
+ [ 0  0  0  0  2  0  0 48  0  0]
+ [ 1  0  1  1  1  2  0  0 43  1]
+ [ 0  0  0  1  2  1  0  2  2 42]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.11m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.96      1.00      0.98        50
+          2       0.96      0.88      0.92        50
+          3       0.88      0.90      0.89        50
+          4       0.89      1.00      0.94        50
+          5       0.88      0.86      0.87        50
+          6       0.96      0.94      0.95        50
+          7       0.90      0.92      0.91        50
+          8       0.91      0.86      0.89        50
+          9       0.94      0.90      0.92        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 44  1  0  0  0  2  1  1]
+ [ 0  0  0 45  0  3  0  1  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 43  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  1  0  2  0  0 46  0  1]
+ [ 1  0  0  2  1  1  0  2 43  0]
+ [ 0  1  0  1  2  1  0  0  0 45]]_______RUN: 4
+
+==========Sample: (1000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.89      0.96      0.92        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.84      0.83        50
+          3       0.94      0.66      0.78        50
+          4       0.82      0.92      0.87        50
+          5       0.68      0.78      0.73        50
+          6       0.89      0.84      0.87        50
+          7       0.80      0.86      0.83        50
+          8       0.89      0.78      0.83        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.86      0.85      0.85       500
+
+Accuracy: 0.852
+Confusion matrix:
+[[48  0  0  0  1  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 42  0  1  0  2  3  1  0]
+ [ 0  0  2 33  0 11  0  2  2  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 1  1  1  1  2 39  0  3  1  1]
+ [ 2  0  3  0  1  2 42  0  0  0]
+ [ 0  0  3  0  2  0  0 43  0  2]
+ [ 2  0  0  1  2  2  1  1 39  2]
+ [ 0  0  0  0  1  2  0  2  1 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.01m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.96      0.93        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.82      0.72      0.77        50
+          4       0.86      0.86      0.86        50
+          5       0.66      0.78      0.72        50
+          6       0.95      0.84      0.89        50
+          7       0.85      0.80      0.82        50
+          8       0.89      0.78      0.83        50
+          9       0.81      0.84      0.82        50
+
+avg / total       0.85      0.85      0.85       500
+
+Accuracy: 0.85
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 1  0 46  0  1  0  0  2  0  0]
+ [ 0  0  2 36  0 10  0  0  2  0]
+ [ 0  0  0  0 43  1  1  0  0  5]
+ [ 1  1  1  1  1 39  0  3  2  1]
+ [ 1  0  3  0  1  3 42  0  0  0]
+ [ 0  0  4  1  2  0  0 40  0  3]
+ [ 2  0  0  3  1  3  0  1 39  1]
+ [ 0  0  0  3  1  2  0  1  1 42]]
+
+==========Sample: (2000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.82      0.92      0.87        50
+          3       0.92      0.70      0.80        50
+          4       0.89      0.96      0.92        50
+          5       0.76      0.88      0.81        50
+          6       0.98      0.88      0.93        50
+          7       0.85      0.90      0.87        50
+          8       0.91      0.80      0.85        50
+          9       0.88      0.88      0.88        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.888
+Confusion matrix:
+[[48  0  0  0  0  2  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  2 35  0  9  0  2  1  1]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 1  0  1  1  0 44  0  2  0  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  2  0  2  0  0 45  0  1]
+ [ 1  1  1  1  1  2  1  0 40  2]
+ [ 0  0  0  1  1  0  0  2  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.03m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.98      1.00      0.99        50
+          2       0.81      0.92      0.86        50
+          3       0.87      0.80      0.83        50
+          4       0.88      0.92      0.90        50
+          5       0.83      0.86      0.84        50
+          6       0.94      0.88      0.91        50
+          7       0.83      0.90      0.87        50
+          8       0.93      0.76      0.84        50
+          9       0.92      0.90      0.91        50
+
+avg / total       0.89      0.89      0.89       500
+
+Accuracy: 0.89
+Confusion matrix:
+[[48  0  1  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  1  1 40  0  5  0  2  1  0]
+ [ 0  0  0  0 46  0  2  0  0  2]
+ [ 0  0  1  2  0 43  0  2  1  1]
+ [ 1  0  3  0  1  1 44  0  0  0]
+ [ 0  0  3  0  1  0  0 45  0  1]
+ [ 2  0  2  2  2  1  1  2 38  0]
+ [ 0  0  0  2  1  1  0  1  0 45]]
+
+==========Sample: (3000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.06m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.98      0.96        50
+          1       0.98      1.00      0.99        50
+          2       0.92      0.92      0.92        50
+          3       0.90      0.76      0.83        50
+          4       0.91      1.00      0.95        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.84      0.94      0.89        50
+          8       0.91      0.80      0.85        50
+          9       0.94      0.88      0.91        50
+
+avg / total       0.91      0.91      0.91       500
+
+Accuracy: 0.908
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  1  1  1]
+ [ 0  0  0 38  0  7  0  4  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 47  0  1]
+ [ 0  1  2  1  1  2  1  1 40  1]
+ [ 0  0  0  1  0  0  0  3  2 44]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.05m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        50
+          1       0.96      1.00      0.98        50
+          2       0.88      0.92      0.90        50
+          3       0.89      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.78      0.90      0.83        50
+          6       0.96      0.90      0.93        50
+          7       0.90      0.88      0.89        50
+          8       0.91      0.78      0.84        50
+          9       0.93      0.86      0.90        50
+
+avg / total       0.90      0.90      0.90       500
+
+Accuracy: 0.902
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 46  0  1  0  0  1  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  0  0 49  0  0  0  0  1]
+ [ 0  0  0  3  0 45  1  0  1  0]
+ [ 1  0  2  0  1  1 45  0  0  0]
+ [ 0  0  3  0  1  0  0 44  0  2]
+ [ 1  1  1  1  1  4  0  2 39  0]
+ [ 0  0  0  1  3  1  0  1  1 43]]
+
+==========Sample: (4000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.10m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.91      0.98      0.94        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.94      0.94        50
+          3       0.91      0.80      0.85        50
+          4       0.88      0.98      0.92        50
+          5       0.81      0.92      0.86        50
+          6       0.96      0.88      0.92        50
+          7       0.88      0.92      0.90        50
+          8       0.93      0.86      0.90        50
+          9       0.96      0.86      0.91        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 47  0  1  0  0  1  1  0]
+ [ 0  0  0 40  0  7  0  2  1  0]
+ [ 0  0  0  0 49  0  1  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  2  0  1  1 44  0  0  0]
+ [ 0  0  0  0  2  0  0 46  0  2]
+ [ 2  0  1  1  1  1  0  1 43  0]
+ [ 0  0  0  1  2  1  0  2  1 43]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.08m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.98      0.98      0.98        50
+          1       0.98      1.00      0.99        50
+          2       0.94      0.90      0.92        50
+          3       0.91      0.86      0.89        50
+          4       0.91      0.96      0.93        50
+          5       0.81      0.88      0.85        50
+          6       0.98      0.94      0.96        50
+          7       0.85      0.92      0.88        50
+          8       0.93      0.82      0.87        50
+          9       0.86      0.88      0.87        50
+
+avg / total       0.92      0.91      0.91       500
+
+Accuracy: 0.914
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 45  0  0  0  0  2  1  1]
+ [ 0  0  0 43  0  6  0  1  0  0]
+ [ 0  0  1  0 48  0  0  0  0  1]
+ [ 0  0  0  2  0 44  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  0  0  1  0  0 46  0  3]
+ [ 0  0  1  1  1  2  0  3 41  1]
+ [ 0  0  0  1  2  1  0  2  0 44]]
+
+==========Sample: (5000, 500, 500) ===========
+
+
+---------------C: 10.000000 -------------
+fitting
+fitting completed. Took  0.14m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.92      0.98      0.95        50
+          1       1.00      1.00      1.00        50
+          2       0.94      0.92      0.93        50
+          3       0.91      0.84      0.87        50
+          4       0.88      0.98      0.92        50
+          5       0.82      0.92      0.87        50
+          6       0.98      0.92      0.95        50
+          7       0.91      0.96      0.93        50
+          8       0.91      0.86      0.89        50
+          9       0.98      0.84      0.90        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[49  0  0  0  0  1  0  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  0 46  0  1  0  0  2  1  0]
+ [ 0  0  0 42  0  6  0  1  1  0]
+ [ 0  0  1  0 49  0  0  0  0  0]
+ [ 1  0  0  2  0 46  1  0  0  0]
+ [ 2  0  1  0  1  0 46  0  0  0]
+ [ 0  0  0  0  2  0  0 48  0  0]
+ [ 1  0  1  1  1  2  0  0 43  1]
+ [ 0  0  0  1  2  1  0  2  2 42]]
+---------------C: 100.000000 -------------
+fitting
+fitting completed. Took  0.11m
+predicting
+prediction complete
+done
+
+Classification report for classifier SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95        50
+          1       0.96      1.00      0.98        50
+          2       0.96      0.88      0.92        50
+          3       0.88      0.90      0.89        50
+          4       0.89      1.00      0.94        50
+          5       0.88      0.86      0.87        50
+          6       0.96      0.94      0.95        50
+          7       0.90      0.92      0.91        50
+          8       0.91      0.86      0.89        50
+          9       0.94      0.90      0.92        50
+
+avg / total       0.92      0.92      0.92       500
+
+Accuracy: 0.922
+Confusion matrix:
+[[48  0  0  0  0  1  1  0  0  0]
+ [ 0 50  0  0  0  0  0  0  0  0]
+ [ 0  1 44  1  0  0  0  2  1  1]
+ [ 0  0  0 45  0  3  0  1  1  0]
+ [ 0  0  0  0 50  0  0  0  0  0]
+ [ 1  0  0  2  0 43  1  0  2  1]
+ [ 1  0  1  0  1  0 47  0  0  0]
+ [ 0  0  1  0  2  0  0 46  0  1]
+ [ 1  0  0  2  1  1  0  2 43  0]
+ [ 0  1  0  1  2  1  0  0  0 45]]

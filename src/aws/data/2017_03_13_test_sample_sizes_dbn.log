@@ -1,0 +1,1956 @@
+
+
+==========Samples: (15000, 500, 500) ===========
+
+... building the model
+... getting the pretraining functions
+... pre-training the model
+Pre-training layer 0, epoch 0, cost -165.447837819
+Pre-training layer 0, epoch 0, representative training free energy -106.368848007
+Pre-training layer 0, epoch 0, validation free energy -103.614869293
+Pre-training layer 0, epoch 1, cost -126.922966548
+Pre-training layer 0, epoch 2, cost -118.641876277
+Pre-training layer 0, epoch 3, cost -113.885917928
+Pre-training layer 0, epoch 4, cost -110.576017975
+Pre-training layer 0, epoch 5, cost -108.084996948
+Pre-training layer 0, epoch 5, representative training free energy -162.531617798
+Pre-training layer 0, epoch 5, validation free energy -158.134871384
+Pre-training layer 0, epoch 6, cost -106.08029925
+Pre-training layer 0, epoch 7, cost -104.507462036
+Pre-training layer 0, epoch 8, cost -103.129790212
+Pre-training layer 0, epoch 9, cost -101.987691844
+Pre-training layer 0, epoch 10, cost -100.932793551
+Pre-training layer 0, epoch 10, representative training free energy -187.938758224
+Pre-training layer 0, epoch 10, validation free energy -183.535609573
+Pre-training layer 0, epoch 11, cost -99.9840969696
+Pre-training layer 0, epoch 12, cost -99.1614049683
+Pre-training layer 0, epoch 13, cost -98.4010272319
+Pre-training layer 0, epoch 14, cost -97.7508469086
+Pre-training layer 0, epoch 15, cost -97.0877639821
+Pre-training layer 0, epoch 15, representative training free energy -205.683783173
+Pre-training layer 0, epoch 15, validation free energy -201.221252686
+Pre-training layer 0, epoch 16, cost -96.5132321726
+Pre-training layer 0, epoch 17, cost -95.9081234309
+Pre-training layer 0, epoch 18, cost -95.4413759486
+Pre-training layer 0, epoch 19, cost -94.9043051656
+Pre-training layer 0, epoch 20, cost -94.5074451548
+Pre-training layer 0, epoch 20, representative training free energy -221.432681366
+Pre-training layer 0, epoch 20, validation free energy -216.921678879
+Pre-training layer 0, epoch 21, cost -94.0193207474
+Pre-training layer 0, epoch 22, cost -93.615444781
+Pre-training layer 0, epoch 23, cost -93.2510639826
+Pre-training layer 0, epoch 24, cost -92.8451912155
+Pre-training layer 0, epoch 25, cost -92.4555624746
+Pre-training layer 0, epoch 25, representative training free energy -235.608203522
+Pre-training layer 0, epoch 25, validation free energy -230.967912537
+Pre-training layer 0, epoch 26, cost -92.1711005096
+Pre-training layer 0, epoch 27, cost -91.7773109945
+Pre-training layer 0, epoch 28, cost -91.5406759796
+Pre-training layer 0, epoch 29, cost -91.2189380188
+Pre-training layer 0, epoch 30, cost -90.9711978175
+Pre-training layer 0, epoch 30, representative training free energy -248.596243134
+Pre-training layer 0, epoch 30, validation free energy -243.989953339
+Pre-training layer 0, epoch 31, cost -90.6536970495
+Pre-training layer 0, epoch 32, cost -90.4035358276
+Pre-training layer 0, epoch 33, cost -90.1500345713
+Pre-training layer 0, epoch 34, cost -89.8975679576
+Pre-training layer 0, epoch 35, cost -89.6879382553
+Pre-training layer 0, epoch 35, representative training free energy -259.077108032
+Pre-training layer 0, epoch 35, validation free energy -254.806044128
+Pre-training layer 0, epoch 36, cost -89.4104931539
+Pre-training layer 0, epoch 37, cost -89.2492106145
+Pre-training layer 0, epoch 38, cost -89.0850188446
+Pre-training layer 0, epoch 39, cost -88.8465212123
+Pre-training layer 0, epoch 40, cost -88.6890343781
+Pre-training layer 0, epoch 40, representative training free energy -270.607202515
+Pre-training layer 0, epoch 40, validation free energy -265.974120483
+Pre-training layer 0, epoch 41, cost -88.5062358271
+Pre-training layer 0, epoch 42, cost -88.278052302
+Pre-training layer 0, epoch 43, cost -88.2277418823
+Pre-training layer 0, epoch 44, cost -88.0725867208
+Pre-training layer 0, epoch 45, cost -87.927165919
+Pre-training layer 0, epoch 45, representative training free energy -278.584024567
+Pre-training layer 0, epoch 45, validation free energy -273.723385406
+Pre-training layer 0, epoch 46, cost -87.7821393382
+Pre-training layer 0, epoch 47, cost -87.6239231822
+Pre-training layer 0, epoch 48, cost -87.4746227188
+Pre-training layer 0, epoch 49, cost -87.3382536926
+Pre-training layer 0, epoch 50, cost -87.2114375814
+Pre-training layer 0, epoch 50, representative training free energy -288.973622284
+Pre-training layer 0, epoch 50, validation free energy -284.019192291
+Pre-training layer 0, epoch 51, cost -87.125286054
+Pre-training layer 0, epoch 52, cost -86.9765879974
+Pre-training layer 0, epoch 53, cost -86.8864175262
+Pre-training layer 0, epoch 54, cost -86.789764679
+Pre-training layer 0, epoch 55, cost -86.6672602488
+Pre-training layer 0, epoch 55, representative training free energy -295.919223358
+Pre-training layer 0, epoch 55, validation free energy -290.685686432
+Pre-training layer 0, epoch 56, cost -86.5269770813
+Pre-training layer 0, epoch 57, cost -86.4388779221
+Pre-training layer 0, epoch 58, cost -86.4022373632
+Pre-training layer 0, epoch 59, cost -86.3456080017
+Pre-training layer 0, epoch 60, cost -86.1913161977
+Pre-training layer 0, epoch 60, representative training free energy -303.340872345
+Pre-training layer 0, epoch 60, validation free energy -298.189600922
+Pre-training layer 0, epoch 61, cost -86.1176351267
+Pre-training layer 0, epoch 62, cost -86.0820055313
+Pre-training layer 0, epoch 63, cost -85.9672336146
+Pre-training layer 0, epoch 64, cost -85.9278736089
+Pre-training layer 0, epoch 65, cost -85.8551338755
+Pre-training layer 0, epoch 65, representative training free energy -307.000195221
+Pre-training layer 0, epoch 65, validation free energy -301.769652405
+Pre-training layer 0, epoch 66, cost -85.8102911606
+Pre-training layer 0, epoch 67, cost -85.6370097783
+Pre-training layer 0, epoch 68, cost -85.579240476
+Pre-training layer 0, epoch 69, cost -85.5742001241
+Pre-training layer 0, epoch 70, cost -85.493862704
+Pre-training layer 0, epoch 70, representative training free energy -311.43813559
+Pre-training layer 0, epoch 70, validation free energy -305.936155151
+Pre-training layer 0, epoch 71, cost -85.34590905
+Pre-training layer 0, epoch 72, cost -85.337135643
+Pre-training layer 0, epoch 73, cost -85.2820929769
+Pre-training layer 0, epoch 74, cost -85.2527595749
+Pre-training layer 0, epoch 75, cost -85.1891692785
+Pre-training layer 0, epoch 75, representative training free energy -317.155758057
+Pre-training layer 0, epoch 75, validation free energy -311.604659027
+Pre-training layer 0, epoch 76, cost -85.1287337112
+Pre-training layer 0, epoch 77, cost -85.0345809759
+Pre-training layer 0, epoch 78, cost -84.9986715037
+Pre-training layer 0, epoch 79, cost -84.9156265132
+Pre-training layer 0, epoch 80, cost -84.8524590098
+Pre-training layer 0, epoch 80, representative training free energy -318.516264954
+Pre-training layer 0, epoch 80, validation free energy -313.228918701
+Pre-training layer 0, epoch 81, cost -84.7855272064
+Pre-training layer 0, epoch 82, cost -84.7756763941
+Pre-training layer 0, epoch 83, cost -84.7168113785
+Pre-training layer 0, epoch 84, cost -84.6218444672
+Pre-training layer 0, epoch 85, cost -84.6176357168
+Pre-training layer 0, epoch 85, representative training free energy -323.4577164
+Pre-training layer 0, epoch 85, validation free energy -317.843528473
+Pre-training layer 0, epoch 86, cost -84.511630778
+Pre-training layer 0, epoch 87, cost -84.4602776108
+Pre-training layer 0, epoch 88, cost -84.4840105743
+Pre-training layer 0, epoch 89, cost -84.3861015294
+Pre-training layer 0, epoch 90, cost -84.361087354
+Pre-training layer 0, epoch 90, representative training free energy -326.260146179
+Pre-training layer 0, epoch 90, validation free energy -320.609998627
+Pre-training layer 0, epoch 91, cost -84.2865672658
+Pre-training layer 0, epoch 92, cost -84.3069365896
+Pre-training layer 0, epoch 93, cost -84.2480918427
+Pre-training layer 0, epoch 94, cost -84.1890423406
+Pre-training layer 0, epoch 95, cost -84.1584268392
+Pre-training layer 0, epoch 95, representative training free energy -329.936910706
+Pre-training layer 0, epoch 95, validation free energy -324.281749573
+Pre-training layer 0, epoch 96, cost -84.0945453415
+Pre-training layer 0, epoch 97, cost -84.0574731115
+Pre-training layer 0, epoch 98, cost -84.0360674845
+Pre-training layer 0, epoch 99, cost -83.9674796244
+Pre-training layer 1, epoch 0, cost -45.0011595535
+Pre-training layer 1, epoch 0, representative training free energy -6487.7527146
+Pre-training layer 1, epoch 0, validation free energy -6416.89846802
+Pre-training layer 1, epoch 1, cost -36.2577539724
+Pre-training layer 1, epoch 2, cost -33.6763659376
+Pre-training layer 1, epoch 3, cost -32.241272761
+Pre-training layer 1, epoch 4, cost -31.1701818352
+Pre-training layer 1, epoch 5, cost -30.4613412717
+Pre-training layer 1, epoch 5, representative training free energy -8521.6595918
+Pre-training layer 1, epoch 5, validation free energy -8423.95669971
+Pre-training layer 1, epoch 6, cost -29.8299722926
+Pre-training layer 1, epoch 7, cost -29.3729182002
+Pre-training layer 1, epoch 8, cost -28.9443983574
+Pre-training layer 1, epoch 9, cost -28.6641820488
+Pre-training layer 1, epoch 10, cost -28.3390939217
+Pre-training layer 1, epoch 10, representative training free energy -9283.1803877
+Pre-training layer 1, epoch 10, validation free energy -9168.01200146
+Pre-training layer 1, epoch 11, cost -28.0606130791
+Pre-training layer 1, epoch 12, cost -27.8238767459
+Pre-training layer 1, epoch 13, cost -27.6289413465
+Pre-training layer 1, epoch 14, cost -27.4198671405
+Pre-training layer 1, epoch 15, cost -27.2554094582
+Pre-training layer 1, epoch 15, representative training free energy -9780.91894385
+Pre-training layer 1, epoch 15, validation free energy -9657.47358154
+Pre-training layer 1, epoch 16, cost -27.0962166125
+Pre-training layer 1, epoch 17, cost -26.9586899363
+Pre-training layer 1, epoch 18, cost -26.7963659096
+Pre-training layer 1, epoch 19, cost -26.6426968511
+Pre-training layer 1, epoch 20, cost -26.5075670687
+Pre-training layer 1, epoch 20, representative training free energy -10135.2193872
+Pre-training layer 1, epoch 20, validation free energy -10014.6875547
+Pre-training layer 1, epoch 21, cost -26.426778347
+Pre-training layer 1, epoch 22, cost -26.3351542536
+Pre-training layer 1, epoch 23, cost -26.2245193812
+Pre-training layer 1, epoch 24, cost -26.1016775805
+Pre-training layer 1, epoch 25, cost -26.0109214834
+Pre-training layer 1, epoch 25, representative training free energy -10434.504418
+Pre-training layer 1, epoch 25, validation free energy -10316.946853
+Pre-training layer 1, epoch 26, cost -25.9377914963
+Pre-training layer 1, epoch 27, cost -25.8621945457
+Pre-training layer 1, epoch 28, cost -25.7414191666
+Pre-training layer 1, epoch 29, cost -25.7079218826
+Pre-training layer 1, epoch 30, cost -25.6392905324
+Pre-training layer 1, epoch 30, representative training free energy -10729.0257461
+Pre-training layer 1, epoch 30, validation free energy -10615.6368735
+Pre-training layer 1, epoch 31, cost -25.5638322957
+Pre-training layer 1, epoch 32, cost -25.493781751
+Pre-training layer 1, epoch 33, cost -25.4364516246
+Pre-training layer 1, epoch 34, cost -25.3670648219
+Pre-training layer 1, epoch 35, cost -25.2773421071
+Pre-training layer 1, epoch 35, representative training free energy -10982.2295049
+Pre-training layer 1, epoch 35, validation free energy -10871.8356089
+Pre-training layer 1, epoch 36, cost -25.2663498281
+Pre-training layer 1, epoch 37, cost -25.2011719373
+Pre-training layer 1, epoch 38, cost -25.149616094
+Pre-training layer 1, epoch 39, cost -25.0943327764
+Pre-training layer 1, epoch 40, cost -25.0630102921
+Pre-training layer 1, epoch 40, representative training free energy -11206.6262378
+Pre-training layer 1, epoch 40, validation free energy -11097.6680361
+Pre-training layer 1, epoch 41, cost -25.0196423238
+Pre-training layer 1, epoch 42, cost -24.9392218361
+Pre-training layer 1, epoch 43, cost -24.9458332481
+Pre-training layer 1, epoch 44, cost -24.8961703415
+Pre-training layer 1, epoch 45, cost -24.8205828679
+Pre-training layer 1, epoch 45, representative training free energy -11385.8858862
+Pre-training layer 1, epoch 45, validation free energy -11275.7468789
+Pre-training layer 1, epoch 46, cost -24.8019743156
+Pre-training layer 1, epoch 47, cost -24.7771915983
+Pre-training layer 1, epoch 48, cost -24.7135510572
+Pre-training layer 1, epoch 49, cost -24.6733127454
+Pre-training layer 1, epoch 50, cost -24.6332543259
+Pre-training layer 1, epoch 50, representative training free energy -11597.0935703
+Pre-training layer 1, epoch 50, validation free energy -11487.2863555
+Pre-training layer 1, epoch 51, cost -24.5961792819
+Pre-training layer 1, epoch 52, cost -24.5437397906
+Pre-training layer 1, epoch 53, cost -24.5475686239
+Pre-training layer 1, epoch 54, cost -24.4729287974
+Pre-training layer 1, epoch 55, cost -24.5019498749
+Pre-training layer 1, epoch 55, representative training free energy -11755.5912837
+Pre-training layer 1, epoch 55, validation free energy -11647.6630498
+Pre-training layer 1, epoch 56, cost -24.4827649333
+Pre-training layer 1, epoch 57, cost -24.378399147
+Pre-training layer 1, epoch 58, cost -24.4012020404
+Pre-training layer 1, epoch 59, cost -24.3612679189
+Pre-training layer 1, epoch 60, cost -24.3543464622
+Pre-training layer 1, epoch 60, representative training free energy -11923.779375
+Pre-training layer 1, epoch 60, validation free energy -11808.5446357
+Pre-training layer 1, epoch 61, cost -24.3304283104
+Pre-training layer 1, epoch 62, cost -24.2875960147
+Pre-training layer 1, epoch 63, cost -24.2900538406
+Pre-training layer 1, epoch 64, cost -24.2478457972
+Pre-training layer 1, epoch 65, cost -24.2324598808
+Pre-training layer 1, epoch 65, representative training free energy -12029.7590674
+Pre-training layer 1, epoch 65, validation free energy -11912.3294419
+Pre-training layer 1, epoch 66, cost -24.2015617816
+Pre-training layer 1, epoch 67, cost -24.1857010167
+Pre-training layer 1, epoch 68, cost -24.1512038676
+Pre-training layer 1, epoch 69, cost -24.1165992546
+Pre-training layer 1, epoch 70, cost -24.0838559519
+Pre-training layer 1, epoch 70, representative training free energy -12183.6030142
+Pre-training layer 1, epoch 70, validation free energy -12070.3049395
+Pre-training layer 1, epoch 71, cost -24.0753858871
+Pre-training layer 1, epoch 72, cost -24.0432917595
+Pre-training layer 1, epoch 73, cost -24.001403609
+Pre-training layer 1, epoch 74, cost -23.9983506495
+Pre-training layer 1, epoch 75, cost -23.9944482943
+Pre-training layer 1, epoch 75, representative training free energy -12372.1172583
+Pre-training layer 1, epoch 75, validation free energy -12255.8024556
+Pre-training layer 1, epoch 76, cost -23.9705319786
+Pre-training layer 1, epoch 77, cost -23.9762491175
+Pre-training layer 1, epoch 78, cost -23.9513342692
+Pre-training layer 1, epoch 79, cost -23.9141026599
+Pre-training layer 1, epoch 80, cost -23.8976152662
+Pre-training layer 1, epoch 80, representative training free energy -12435.3005049
+Pre-training layer 1, epoch 80, validation free energy -12320.3238872
+Pre-training layer 1, epoch 81, cost -23.9182092069
+Pre-training layer 1, epoch 82, cost -23.8706929245
+Pre-training layer 1, epoch 83, cost -23.8679389814
+Pre-training layer 1, epoch 84, cost -23.8107561633
+Pre-training layer 1, epoch 85, cost -23.8512892532
+Pre-training layer 1, epoch 85, representative training free energy -12594.9304858
+Pre-training layer 1, epoch 85, validation free energy -12477.2645122
+Pre-training layer 1, epoch 86, cost -23.7877072067
+Pre-training layer 1, epoch 87, cost -23.7505537338
+Pre-training layer 1, epoch 88, cost -23.7690350291
+Pre-training layer 1, epoch 89, cost -23.7691910998
+Pre-training layer 1, epoch 90, cost -23.7396790161
+Pre-training layer 1, epoch 90, representative training free energy -12704.4943711
+Pre-training layer 1, epoch 90, validation free energy -12587.9006411
+Pre-training layer 1, epoch 91, cost -23.6756581001
+Pre-training layer 1, epoch 92, cost -23.6906688703
+Pre-training layer 1, epoch 93, cost -23.651995917
+Pre-training layer 1, epoch 94, cost -23.6435608075
+Pre-training layer 1, epoch 95, cost -23.6115519854
+Pre-training layer 1, epoch 95, representative training free energy -12696.0966104
+Pre-training layer 1, epoch 95, validation free energy -12581.1713101
+Pre-training layer 1, epoch 96, cost -23.6149381638
+Pre-training layer 1, epoch 97, cost -23.6025883179
+Pre-training layer 1, epoch 98, cost -23.6158969103
+Pre-training layer 1, epoch 99, cost -23.5699834925
+Pre-training layer 2, epoch 0, cost -32.5886752141
+Pre-training layer 2, epoch 0, representative training free energy -21629.6858506
+Pre-training layer 2, epoch 0, validation free energy -21124.5135547
+Pre-training layer 2, epoch 1, cost -25.9337815819
+Pre-training layer 2, epoch 2, cost -24.1185558942
+Pre-training layer 2, epoch 3, cost -23.2352972221
+Pre-training layer 2, epoch 4, cost -22.6598152059
+Pre-training layer 2, epoch 5, cost -22.2418933468
+Pre-training layer 2, epoch 5, representative training free energy -25398.907168
+Pre-training layer 2, epoch 5, validation free energy -24505.8115703
+Pre-training layer 2, epoch 6, cost -21.8756025016
+Pre-training layer 2, epoch 7, cost -21.6315423845
+Pre-training layer 2, epoch 8, cost -21.3988702634
+Pre-training layer 2, epoch 9, cost -21.2311768742
+Pre-training layer 2, epoch 10, cost -21.0723383141
+Pre-training layer 2, epoch 10, representative training free energy -26399.1010879
+Pre-training layer 2, epoch 10, validation free energy -25385.4579785
+Pre-training layer 2, epoch 11, cost -20.9469037189
+Pre-training layer 2, epoch 12, cost -20.7671711775
+Pre-training layer 2, epoch 13, cost -20.6813335266
+Pre-training layer 2, epoch 14, cost -20.5743058872
+Pre-training layer 2, epoch 15, cost -20.4899933357
+Pre-training layer 2, epoch 15, representative training free energy -27547.6954824
+Pre-training layer 2, epoch 15, validation free energy -26493.1711289
+Pre-training layer 2, epoch 16, cost -20.4060523351
+Pre-training layer 2, epoch 17, cost -20.3003609721
+Pre-training layer 2, epoch 18, cost -20.2368337313
+Pre-training layer 2, epoch 19, cost -20.174912763
+Pre-training layer 2, epoch 20, cost -20.1131024183
+Pre-training layer 2, epoch 20, representative training free energy -28046.8447168
+Pre-training layer 2, epoch 20, validation free energy -26992.468999
+Pre-training layer 2, epoch 21, cost -20.0463473879
+Pre-training layer 2, epoch 22, cost -20.0092676334
+Pre-training layer 2, epoch 23, cost -19.9392563127
+Pre-training layer 2, epoch 24, cost -19.9003728669
+Pre-training layer 2, epoch 25, cost -19.9014308491
+Pre-training layer 2, epoch 25, representative training free energy -28342.0973496
+Pre-training layer 2, epoch 25, validation free energy -27256.8221436
+Pre-training layer 2, epoch 26, cost -19.8332688141
+Pre-training layer 2, epoch 27, cost -19.7834615428
+Pre-training layer 2, epoch 28, cost -19.7762566452
+Pre-training layer 2, epoch 29, cost -19.7194838034
+Pre-training layer 2, epoch 30, cost -19.6896850796
+Pre-training layer 2, epoch 30, representative training free energy -28845.305668
+Pre-training layer 2, epoch 30, validation free energy -27762.5054854
+Pre-training layer 2, epoch 31, cost -19.6547992802
+Pre-training layer 2, epoch 32, cost -19.6367783451
+Pre-training layer 2, epoch 33, cost -19.5746198552
+Pre-training layer 2, epoch 34, cost -19.5574742298
+Pre-training layer 2, epoch 35, cost -19.5264366786
+Pre-training layer 2, epoch 35, representative training free energy -28767.6616191
+Pre-training layer 2, epoch 35, validation free energy -27666.393999
+Pre-training layer 2, epoch 36, cost -19.5330999444
+Pre-training layer 2, epoch 37, cost -19.5202712084
+Pre-training layer 2, epoch 38, cost -19.4615345465
+Pre-training layer 2, epoch 39, cost -19.436114357
+Pre-training layer 2, epoch 40, cost -19.426341671
+Pre-training layer 2, epoch 40, representative training free energy -29098.7321328
+Pre-training layer 2, epoch 40, validation free energy -27966.4293516
+Pre-training layer 2, epoch 41, cost -19.4389783065
+Pre-training layer 2, epoch 42, cost -19.4020866578
+Pre-training layer 2, epoch 43, cost -19.3821628323
+Pre-training layer 2, epoch 44, cost -19.3750208619
+Pre-training layer 2, epoch 45, cost -19.3141391678
+Pre-training layer 2, epoch 45, representative training free energy -29327.9847871
+Pre-training layer 2, epoch 45, validation free energy -28172.4681152
+Pre-training layer 2, epoch 46, cost -19.2954607004
+Pre-training layer 2, epoch 47, cost -19.3032781957
+Pre-training layer 2, epoch 48, cost -19.2934209251
+Pre-training layer 2, epoch 49, cost -19.2531406657
+Pre-training layer 2, epoch 50, cost -19.2536756013
+Pre-training layer 2, epoch 50, representative training free energy -29661.9847559
+Pre-training layer 2, epoch 50, validation free energy -28516.8264932
+Pre-training layer 2, epoch 51, cost -19.236254523
+Pre-training layer 2, epoch 52, cost -19.2291864052
+Pre-training layer 2, epoch 53, cost -19.2008249098
+Pre-training layer 2, epoch 54, cost -19.2189092954
+Pre-training layer 2, epoch 55, cost -19.1858861548
+Pre-training layer 2, epoch 55, representative training free energy -29859.610877
+Pre-training layer 2, epoch 55, validation free energy -28670.558041
+Pre-training layer 2, epoch 56, cost -19.1516377068
+Pre-training layer 2, epoch 57, cost -19.1438009472
+Pre-training layer 2, epoch 58, cost -19.1452610455
+Pre-training layer 2, epoch 59, cost -19.1112895508
+Pre-training layer 2, epoch 60, cost -19.1216330986
+Pre-training layer 2, epoch 60, representative training free energy -30307.900043
+Pre-training layer 2, epoch 60, validation free energy -29039.8541621
+Pre-training layer 2, epoch 61, cost -19.0956770452
+Pre-training layer 2, epoch 62, cost -19.0661155224
+Pre-training layer 2, epoch 63, cost -19.0658651543
+Pre-training layer 2, epoch 64, cost -19.061710783
+Pre-training layer 2, epoch 65, cost -19.0643437786
+Pre-training layer 2, epoch 65, representative training free energy -30516.2740762
+Pre-training layer 2, epoch 65, validation free energy -29254.9281348
+Pre-training layer 2, epoch 66, cost -19.0707533201
+Pre-training layer 2, epoch 67, cost -19.0556146628
+Pre-training layer 2, epoch 68, cost -19.0607318033
+Pre-training layer 2, epoch 69, cost -19.0045440776
+Pre-training layer 2, epoch 70, cost -19.0044537837
+Pre-training layer 2, epoch 70, representative training free energy -30468.6452227
+Pre-training layer 2, epoch 70, validation free energy -29149.3165371
+Pre-training layer 2, epoch 71, cost -19.0032083206
+Pre-training layer 2, epoch 72, cost -18.9949742292
+Pre-training layer 2, epoch 73, cost -18.9830334015
+Pre-training layer 2, epoch 74, cost -18.9627095992
+Pre-training layer 2, epoch 75, cost -18.9920882797
+Pre-training layer 2, epoch 75, representative training free energy -30718.0068496
+Pre-training layer 2, epoch 75, validation free energy -29396.5876055
+Pre-training layer 2, epoch 76, cost -18.9560461597
+Pre-training layer 2, epoch 77, cost -18.9566063073
+Pre-training layer 2, epoch 78, cost -18.9199255708
+Pre-training layer 2, epoch 79, cost -18.9422201703
+Pre-training layer 2, epoch 80, cost -18.9360692177
+Pre-training layer 2, epoch 80, representative training free energy -31056.8734922
+Pre-training layer 2, epoch 80, validation free energy -29691.2646387
+Pre-training layer 2, epoch 81, cost -18.9064093424
+Pre-training layer 2, epoch 82, cost -18.9302355906
+Pre-training layer 2, epoch 83, cost -18.8942368984
+Pre-training layer 2, epoch 84, cost -18.8922871138
+Pre-training layer 2, epoch 85, cost -18.8889418583
+Pre-training layer 2, epoch 85, representative training free energy -31216.5738262
+Pre-training layer 2, epoch 85, validation free energy -29882.0258223
+Pre-training layer 2, epoch 86, cost -18.8739597282
+Pre-training layer 2, epoch 87, cost -18.8604345945
+Pre-training layer 2, epoch 88, cost -18.8847664344
+Pre-training layer 2, epoch 89, cost -18.854557478
+Pre-training layer 2, epoch 90, cost -18.8363029372
+Pre-training layer 2, epoch 90, representative training free energy -31634.8781973
+Pre-training layer 2, epoch 90, validation free energy -30285.3540332
+Pre-training layer 2, epoch 91, cost -18.8432418919
+Pre-training layer 2, epoch 92, cost -18.8141341629
+Pre-training layer 2, epoch 93, cost -18.8316331164
+Pre-training layer 2, epoch 94, cost -18.8161288815
+Pre-training layer 2, epoch 95, cost -18.7984442883
+Pre-training layer 2, epoch 95, representative training free energy -31523.1772793
+Pre-training layer 2, epoch 95, validation free energy -30201.6881543
+Pre-training layer 2, epoch 96, cost -18.7863164959
+Pre-training layer 2, epoch 97, cost -18.7758898741
+Pre-training layer 2, epoch 98, cost -18.814091411
+Pre-training layer 2, epoch 99, cost -18.7686531334
+The pretraining code for file dbn_loop.pyc ran for 3.52m... getting the finetuning functions... finetuning the model
+epoch 1, minibatch 1500/1500, validation error 9.200000 %
+     epoch 1, minibatch 1500/1500, test error of best model 8.400000 %
+epoch 2, minibatch 1500/1500, validation error 8.600000 %
+     epoch 2, minibatch 1500/1500, test error of best model 7.800000 %
+epoch 3, minibatch 1500/1500, validation error 9.000000 %
+epoch 4, minibatch 1500/1500, validation error 8.400000 %
+     epoch 4, minibatch 1500/1500, test error of best model 7.000000 %
+epoch 5, minibatch 1500/1500, validation error 8.000000 %
+     epoch 5, minibatch 1500/1500, test error of best model 7.000000 %
+epoch 6, minibatch 1500/1500, validation error 7.800000 %
+     epoch 6, minibatch 1500/1500, test error of best model 6.400000 %
+epoch 7, minibatch 1500/1500, validation error 7.400000 %
+     epoch 7, minibatch 1500/1500, test error of best model 5.600000 %
+epoch 8, minibatch 1500/1500, validation error 7.000000 %
+     epoch 8, minibatch 1500/1500, test error of best model 5.000000 %
+epoch 9, minibatch 1500/1500, validation error 6.800000 %
+     epoch 9, minibatch 1500/1500, test error of best model 4.800000 %
+epoch 10, minibatch 1500/1500, validation error 7.200000 %
+epoch 11, minibatch 1500/1500, validation error 7.400000 %
+epoch 12, minibatch 1500/1500, validation error 7.600000 %
+epoch 13, minibatch 1500/1500, validation error 7.800000 %
+epoch 14, minibatch 1500/1500, validation error 7.800000 %
+epoch 15, minibatch 1500/1500, validation error 7.600000 %
+epoch 16, minibatch 1500/1500, validation error 7.600000 %
+epoch 17, minibatch 1500/1500, validation error 7.600000 %
+Optimization complete with best validation score of 6.800000 %, obtained at iteration 13500, with test performance 4.800000 %
+The fine tuning code for file dbn_loop.pyc ran for 0.14m
+
+
+==========Samples: (15000, 1000, 1000) ===========
+
+... building the model
+... getting the pretraining functions
+... pre-training the model
+Pre-training layer 0, epoch 0, cost -165.363161774
+Pre-training layer 0, epoch 0, representative training free energy -104.770561848
+Pre-training layer 0, epoch 0, validation free energy -104.155818176
+Pre-training layer 0, epoch 1, cost -126.803829656
+Pre-training layer 0, epoch 2, cost -118.580594574
+Pre-training layer 0, epoch 3, cost -113.847482249
+Pre-training layer 0, epoch 4, cost -110.58965594
+Pre-training layer 0, epoch 5, cost -108.120238169
+Pre-training layer 0, epoch 5, representative training free energy -161.684381569
+Pre-training layer 0, epoch 5, validation free energy -158.636239365
+Pre-training layer 0, epoch 6, cost -106.171158323
+Pre-training layer 0, epoch 7, cost -104.553844172
+Pre-training layer 0, epoch 8, cost -103.187755562
+Pre-training layer 0, epoch 9, cost -102.013007177
+Pre-training layer 0, epoch 10, cost -100.983467929
+Pre-training layer 0, epoch 10, representative training free energy -186.356182602
+Pre-training layer 0, epoch 10, validation free energy -183.387187744
+Pre-training layer 0, epoch 11, cost -100.086348282
+Pre-training layer 0, epoch 12, cost -99.2616174037
+Pre-training layer 0, epoch 13, cost -98.5259759369
+Pre-training layer 0, epoch 14, cost -97.7976793543
+Pre-training layer 0, epoch 15, cost -97.1619642131
+Pre-training layer 0, epoch 15, representative training free energy -204.75707357
+Pre-training layer 0, epoch 15, validation free energy -201.154828949
+Pre-training layer 0, epoch 16, cost -96.5490397466
+Pre-training layer 0, epoch 17, cost -96.0483572464
+Pre-training layer 0, epoch 18, cost -95.5435604045
+Pre-training layer 0, epoch 19, cost -95.0574414953
+Pre-training layer 0, epoch 20, cost -94.5768271891
+Pre-training layer 0, epoch 20, representative training free energy -221.32654879
+Pre-training layer 0, epoch 20, validation free energy -218.041909744
+Pre-training layer 0, epoch 21, cost -94.1377039541
+Pre-training layer 0, epoch 22, cost -93.8019178085
+Pre-training layer 0, epoch 23, cost -93.3941701253
+Pre-training layer 0, epoch 24, cost -93.0170304489
+Pre-training layer 0, epoch 25, cost -92.6657418772
+Pre-training layer 0, epoch 25, representative training free energy -235.888410477
+Pre-training layer 0, epoch 25, validation free energy -232.471293289
+Pre-training layer 0, epoch 26, cost -92.3274412053
+Pre-training layer 0, epoch 27, cost -92.0151563746
+Pre-training layer 0, epoch 28, cost -91.6646764196
+Pre-training layer 0, epoch 29, cost -91.4518284327
+Pre-training layer 0, epoch 30, cost -91.1233615417
+Pre-training layer 0, epoch 30, representative training free energy -247.187769745
+Pre-training layer 0, epoch 30, validation free energy -244.614548431
+Pre-training layer 0, epoch 31, cost -90.8939883982
+Pre-training layer 0, epoch 32, cost -90.6275822805
+Pre-training layer 0, epoch 33, cost -90.3131908162
+Pre-training layer 0, epoch 34, cost -90.1325936839
+Pre-training layer 0, epoch 35, cost -89.9556256943
+Pre-training layer 0, epoch 35, representative training free energy -260.316985748
+Pre-training layer 0, epoch 35, validation free energy -256.772912384
+Pre-training layer 0, epoch 36, cost -89.6879179281
+Pre-training layer 0, epoch 37, cost -89.4856347961
+Pre-training layer 0, epoch 38, cost -89.3049194183
+Pre-training layer 0, epoch 39, cost -89.1219491577
+Pre-training layer 0, epoch 40, cost -88.9618200429
+Pre-training layer 0, epoch 40, representative training free energy -271.595326874
+Pre-training layer 0, epoch 40, validation free energy -268.228626846
+Pre-training layer 0, epoch 41, cost -88.7407828852
+Pre-training layer 0, epoch 42, cost -88.627191775
+Pre-training layer 0, epoch 43, cost -88.4592302094
+Pre-training layer 0, epoch 44, cost -88.2682486699
+Pre-training layer 0, epoch 45, cost -88.1702037226
+Pre-training layer 0, epoch 45, representative training free energy -279.424891663
+Pre-training layer 0, epoch 45, validation free energy -276.04170668
+Pre-training layer 0, epoch 46, cost -87.9863752619
+Pre-training layer 0, epoch 47, cost -87.8813250071
+Pre-training layer 0, epoch 48, cost -87.6690634257
+Pre-training layer 0, epoch 49, cost -87.5905250804
+Pre-training layer 0, epoch 50, cost -87.4932001394
+Pre-training layer 0, epoch 50, representative training free energy -288.681706558
+Pre-training layer 0, epoch 50, validation free energy -285.214041245
+Pre-training layer 0, epoch 51, cost -87.3800612717
+Pre-training layer 0, epoch 52, cost -87.2330906347
+Pre-training layer 0, epoch 53, cost -87.1319284439
+Pre-training layer 0, epoch 54, cost -86.9873549678
+Pre-training layer 0, epoch 55, cost -86.9625977147
+Pre-training layer 0, epoch 55, representative training free energy -296.418688553
+Pre-training layer 0, epoch 55, validation free energy -293.425776031
+Pre-training layer 0, epoch 56, cost -86.8641764476
+Pre-training layer 0, epoch 57, cost -86.7136612727
+Pre-training layer 0, epoch 58, cost -86.654317098
+Pre-training layer 0, epoch 59, cost -86.5333725281
+Pre-training layer 0, epoch 60, cost -86.4246539841
+Pre-training layer 0, epoch 60, representative training free energy -302.8459384
+Pre-training layer 0, epoch 60, validation free energy -299.482203583
+Pre-training layer 0, epoch 61, cost -86.3085819244
+Pre-training layer 0, epoch 62, cost -86.2689608434
+Pre-training layer 0, epoch 63, cost -86.1318841019
+Pre-training layer 0, epoch 64, cost -86.0764097315
+Pre-training layer 0, epoch 65, cost -85.9772047119
+Pre-training layer 0, epoch 65, representative training free energy -308.774684311
+Pre-training layer 0, epoch 65, validation free energy -305.220965286
+Pre-training layer 0, epoch 66, cost -85.9401327998
+Pre-training layer 0, epoch 67, cost -85.8950339686
+Pre-training layer 0, epoch 68, cost -85.8061811752
+Pre-training layer 0, epoch 69, cost -85.7259425151
+Pre-training layer 0, epoch 70, cost -85.6836483612
+Pre-training layer 0, epoch 70, representative training free energy -311.729278992
+Pre-training layer 0, epoch 70, validation free energy -308.295537918
+Pre-training layer 0, epoch 71, cost -85.5662427114
+Pre-training layer 0, epoch 72, cost -85.557004748
+Pre-training layer 0, epoch 73, cost -85.432810552
+Pre-training layer 0, epoch 74, cost -85.4150173314
+Pre-training layer 0, epoch 75, cost -85.3088823598
+Pre-training layer 0, epoch 75, representative training free energy -317.354691086
+Pre-training layer 0, epoch 75, validation free energy -313.890369156
+Pre-training layer 0, epoch 76, cost -85.2706579768
+Pre-training layer 0, epoch 77, cost -85.1647851791
+Pre-training layer 0, epoch 78, cost -85.1276809896
+Pre-training layer 0, epoch 79, cost -85.0802148107
+Pre-training layer 0, epoch 80, cost -85.0124801788
+Pre-training layer 0, epoch 80, representative training free energy -321.131969482
+Pre-training layer 0, epoch 80, validation free energy -317.901222702
+Pre-training layer 0, epoch 81, cost -84.9729108124
+Pre-training layer 0, epoch 82, cost -84.9593858617
+Pre-training layer 0, epoch 83, cost -84.9202837016
+Pre-training layer 0, epoch 84, cost -84.8889012324
+Pre-training layer 0, epoch 85, cost -84.7507781296
+Pre-training layer 0, epoch 85, representative training free energy -325.242085556
+Pre-training layer 0, epoch 85, validation free energy -321.148157013
+Pre-training layer 0, epoch 86, cost -84.7905733668
+Pre-training layer 0, epoch 87, cost -84.6772819036
+Pre-training layer 0, epoch 88, cost -84.5841664658
+Pre-training layer 0, epoch 89, cost -84.5581861216
+Pre-training layer 0, epoch 90, cost -84.5368951976
+Pre-training layer 0, epoch 90, representative training free energy -326.238498337
+Pre-training layer 0, epoch 90, validation free energy -322.277522705
+Pre-training layer 0, epoch 91, cost -84.4789483388
+Pre-training layer 0, epoch 92, cost -84.4256167196
+Pre-training layer 0, epoch 93, cost -84.3631904119
+Pre-training layer 0, epoch 94, cost -84.3619625626
+Pre-training layer 0, epoch 95, cost -84.3689064331
+Pre-training layer 0, epoch 95, representative training free energy -329.617915588
+Pre-training layer 0, epoch 95, validation free energy -326.125263382
+Pre-training layer 0, epoch 96, cost -84.246066658
+Pre-training layer 0, epoch 97, cost -84.2278331757
+Pre-training layer 0, epoch 98, cost -84.1700095037
+Pre-training layer 0, epoch 99, cost -84.1172635803
+Pre-training layer 1, epoch 0, cost -45.4075082906
+Pre-training layer 1, epoch 0, representative training free energy -6275.48415625
+Pre-training layer 1, epoch 0, validation free energy -6199.72266626
+Pre-training layer 1, epoch 1, cost -36.3261334203
+Pre-training layer 1, epoch 2, cost -33.6656836027
+Pre-training layer 1, epoch 3, cost -32.1869620806
+Pre-training layer 1, epoch 4, cost -31.1730631816
+Pre-training layer 1, epoch 5, cost -30.4389541435
+Pre-training layer 1, epoch 5, representative training free energy -8500.46352734
+Pre-training layer 1, epoch 5, validation free energy -8429.91828345
+Pre-training layer 1, epoch 6, cost -29.8563363317
+Pre-training layer 1, epoch 7, cost -29.3726197217
+Pre-training layer 1, epoch 8, cost -28.988264314
+Pre-training layer 1, epoch 9, cost -28.6465305494
+Pre-training layer 1, epoch 10, cost -28.3480795034
+Pre-training layer 1, epoch 10, representative training free energy -9402.08458276
+Pre-training layer 1, epoch 10, validation free energy -9319.75946924
+Pre-training layer 1, epoch 11, cost -28.1145231425
+Pre-training layer 1, epoch 12, cost -27.8628623784
+Pre-training layer 1, epoch 13, cost -27.6493944575
+Pre-training layer 1, epoch 14, cost -27.4857293053
+Pre-training layer 1, epoch 15, cost -27.2873645782
+Pre-training layer 1, epoch 15, representative training free energy -10007.2142075
+Pre-training layer 1, epoch 15, validation free energy -9934.51662451
+Pre-training layer 1, epoch 16, cost -27.1770990346
+Pre-training layer 1, epoch 17, cost -27.0124311167
+Pre-training layer 1, epoch 18, cost -26.8646027629
+Pre-training layer 1, epoch 19, cost -26.7470870806
+Pre-training layer 1, epoch 20, cost -26.6206200422
+Pre-training layer 1, epoch 20, representative training free energy -10412.2670801
+Pre-training layer 1, epoch 20, validation free energy -10330.4864065
+Pre-training layer 1, epoch 21, cost -26.5130129
+Pre-training layer 1, epoch 22, cost -26.3939979159
+Pre-training layer 1, epoch 23, cost -26.2780779394
+Pre-training layer 1, epoch 24, cost -26.1810720876
+Pre-training layer 1, epoch 25, cost -26.0880666135
+Pre-training layer 1, epoch 25, representative training free energy -10735.9644131
+Pre-training layer 1, epoch 25, validation free energy -10666.2222686
+Pre-training layer 1, epoch 26, cost -25.9920106901
+Pre-training layer 1, epoch 27, cost -25.9083256454
+Pre-training layer 1, epoch 28, cost -25.8116041133
+Pre-training layer 1, epoch 29, cost -25.7586798299
+Pre-training layer 1, epoch 30, cost -25.6782503166
+Pre-training layer 1, epoch 30, representative training free energy -11046.9413335
+Pre-training layer 1, epoch 30, validation free energy -10977.9083818
+Pre-training layer 1, epoch 31, cost -25.6358968315
+Pre-training layer 1, epoch 32, cost -25.5238406766
+Pre-training layer 1, epoch 33, cost -25.5100506846
+Pre-training layer 1, epoch 34, cost -25.45353943
+Pre-training layer 1, epoch 35, cost -25.3178043772
+Pre-training layer 1, epoch 35, representative training free energy -11289.3717029
+Pre-training layer 1, epoch 35, validation free energy -11204.7035764
+Pre-training layer 1, epoch 36, cost -25.2963300184
+Pre-training layer 1, epoch 37, cost -25.2304038912
+Pre-training layer 1, epoch 38, cost -25.2128794912
+Pre-training layer 1, epoch 39, cost -25.1704592921
+Pre-training layer 1, epoch 40, cost -25.0807742462
+Pre-training layer 1, epoch 40, representative training free energy -11520.1432246
+Pre-training layer 1, epoch 40, validation free energy -11428.4295535
+Pre-training layer 1, epoch 41, cost -25.0393383115
+Pre-training layer 1, epoch 42, cost -24.9977553558
+Pre-training layer 1, epoch 43, cost -24.9832076238
+Pre-training layer 1, epoch 44, cost -24.9213042386
+Pre-training layer 1, epoch 45, cost -24.8576848564
+Pre-training layer 1, epoch 45, representative training free energy -11717.1203523
+Pre-training layer 1, epoch 45, validation free energy -11620.2528374
+Pre-training layer 1, epoch 46, cost -24.8225010262
+Pre-training layer 1, epoch 47, cost -24.8141149076
+Pre-training layer 1, epoch 48, cost -24.7343898646
+Pre-training layer 1, epoch 49, cost -24.7004309464
+Pre-training layer 1, epoch 50, cost -24.6817567062
+Pre-training layer 1, epoch 50, representative training free energy -11873.5749509
+Pre-training layer 1, epoch 50, validation free energy -11782.8996941
+Pre-training layer 1, epoch 51, cost -24.644941522
+Pre-training layer 1, epoch 52, cost -24.5731387711
+Pre-training layer 1, epoch 53, cost -24.5653866946
+Pre-training layer 1, epoch 54, cost -24.588732722
+Pre-training layer 1, epoch 55, cost -24.5349445457
+Pre-training layer 1, epoch 55, representative training free energy -12112.0574104
+Pre-training layer 1, epoch 55, validation free energy -12019.336428
+Pre-training layer 1, epoch 56, cost -24.4570618769
+Pre-training layer 1, epoch 57, cost -24.4992111702
+Pre-training layer 1, epoch 58, cost -24.4594228986
+Pre-training layer 1, epoch 59, cost -24.4229711291
+Pre-training layer 1, epoch 60, cost -24.3688783468
+Pre-training layer 1, epoch 60, representative training free energy -12283.4682405
+Pre-training layer 1, epoch 60, validation free energy -12178.9725776
+Pre-training layer 1, epoch 61, cost -24.3219471982
+Pre-training layer 1, epoch 62, cost -24.331018144
+Pre-training layer 1, epoch 63, cost -24.2722475446
+Pre-training layer 1, epoch 64, cost -24.2903814634
+Pre-training layer 1, epoch 65, cost -24.2646334597
+Pre-training layer 1, epoch 65, representative training free energy -12410.7900955
+Pre-training layer 1, epoch 65, validation free energy -12307.0618853
+Pre-training layer 1, epoch 66, cost -24.2175980988
+Pre-training layer 1, epoch 67, cost -24.1743787448
+Pre-training layer 1, epoch 68, cost -24.1504574966
+Pre-training layer 1, epoch 69, cost -24.1278394623
+Pre-training layer 1, epoch 70, cost -24.1193792686
+Pre-training layer 1, epoch 70, representative training free energy -12561.5846494
+Pre-training layer 1, epoch 70, validation free energy -12443.2734263
+Pre-training layer 1, epoch 71, cost -24.1091613859
+Pre-training layer 1, epoch 72, cost -24.08300435
+Pre-training layer 1, epoch 73, cost -24.0748440666
+Pre-training layer 1, epoch 74, cost -24.0650490481
+Pre-training layer 1, epoch 75, cost -24.0257150688
+Pre-training layer 1, epoch 75, representative training free energy -12702.8653738
+Pre-training layer 1, epoch 75, validation free energy -12590.2502048
+Pre-training layer 1, epoch 76, cost -23.9848656197
+Pre-training layer 1, epoch 77, cost -24.009812369
+Pre-training layer 1, epoch 78, cost -23.9643656222
+Pre-training layer 1, epoch 79, cost -23.9404875018
+Pre-training layer 1, epoch 80, cost -23.9535390434
+Pre-training layer 1, epoch 80, representative training free energy -12804.4822507
+Pre-training layer 1, epoch 80, validation free energy -12696.9805691
+Pre-training layer 1, epoch 81, cost -23.8919864209
+Pre-training layer 1, epoch 82, cost -23.9006523272
+Pre-training layer 1, epoch 83, cost -23.8709396337
+Pre-training layer 1, epoch 84, cost -23.8357199402
+Pre-training layer 1, epoch 85, cost -23.8410007273
+Pre-training layer 1, epoch 85, representative training free energy -12960.8918186
+Pre-training layer 1, epoch 85, validation free energy -12846.5197405
+Pre-training layer 1, epoch 86, cost -23.8039595846
+Pre-training layer 1, epoch 87, cost -23.8222185567
+Pre-training layer 1, epoch 88, cost -23.778123539
+Pre-training layer 1, epoch 89, cost -23.7570130424
+Pre-training layer 1, epoch 90, cost -23.7281322225
+Pre-training layer 1, epoch 90, representative training free energy -13092.1913445
+Pre-training layer 1, epoch 90, validation free energy -12975.9561704
+Pre-training layer 1, epoch 91, cost -23.7426298358
+Pre-training layer 1, epoch 92, cost -23.735902298
+Pre-training layer 1, epoch 93, cost -23.6701413066
+Pre-training layer 1, epoch 94, cost -23.7066231295
+Pre-training layer 1, epoch 95, cost -23.6343724353
+Pre-training layer 1, epoch 95, representative training free energy -13204.7420437
+Pre-training layer 1, epoch 95, validation free energy -13095.9108027
+Pre-training layer 1, epoch 96, cost -23.6358135745
+Pre-training layer 1, epoch 97, cost -23.6344515953
+Pre-training layer 1, epoch 98, cost -23.5777474696
+Pre-training layer 1, epoch 99, cost -23.604421051
+Pre-training layer 2, epoch 0, cost -32.8891547737
+Pre-training layer 2, epoch 0, representative training free energy -23649.1614873
+Pre-training layer 2, epoch 0, validation free energy -22901.5075156
+Pre-training layer 2, epoch 1, cost -26.2771475766
+Pre-training layer 2, epoch 2, cost -24.4154089019
+Pre-training layer 2, epoch 3, cost -23.400619208
+Pre-training layer 2, epoch 4, cost -22.7753943176
+Pre-training layer 2, epoch 5, cost -22.2847784551
+Pre-training layer 2, epoch 5, representative training free energy -28318.2053359
+Pre-training layer 2, epoch 5, validation free energy -27604.901501
+Pre-training layer 2, epoch 6, cost -21.9742326584
+Pre-training layer 2, epoch 7, cost -21.7159469624
+Pre-training layer 2, epoch 8, cost -21.4528229701
+Pre-training layer 2, epoch 9, cost -21.2791399059
+Pre-training layer 2, epoch 10, cost -21.1338970668
+Pre-training layer 2, epoch 10, representative training free energy -29961.8473115
+Pre-training layer 2, epoch 10, validation free energy -29440.1763154
+Pre-training layer 2, epoch 11, cost -21.0351789322
+Pre-training layer 2, epoch 12, cost -20.9266650823
+Pre-training layer 2, epoch 13, cost -20.8245355377
+Pre-training layer 2, epoch 14, cost -20.6963398679
+Pre-training layer 2, epoch 15, cost -20.6216475773
+Pre-training layer 2, epoch 15, representative training free energy -30913.4196338
+Pre-training layer 2, epoch 15, validation free energy -30535.1621514
+Pre-training layer 2, epoch 16, cost -20.5860642338
+Pre-training layer 2, epoch 17, cost -20.4979059906
+Pre-training layer 2, epoch 18, cost -20.4544664866
+Pre-training layer 2, epoch 19, cost -20.368516641
+Pre-training layer 2, epoch 20, cost -20.3089120604
+Pre-training layer 2, epoch 20, representative training free energy -31346.8209512
+Pre-training layer 2, epoch 20, validation free energy -31067.6922383
+Pre-training layer 2, epoch 21, cost -20.2615991084
+Pre-training layer 2, epoch 22, cost -20.2198245455
+Pre-training layer 2, epoch 23, cost -20.1839277871
+Pre-training layer 2, epoch 24, cost -20.1048737863
+Pre-training layer 2, epoch 25, cost -20.0968462022
+Pre-training layer 2, epoch 25, representative training free energy -32006.4006592
+Pre-training layer 2, epoch 25, validation free energy -31821.7378467
+Pre-training layer 2, epoch 26, cost -20.0757745686
+Pre-training layer 2, epoch 27, cost -20.029998031
+Pre-training layer 2, epoch 28, cost -19.9753342571
+Pre-training layer 2, epoch 29, cost -19.973650444
+Pre-training layer 2, epoch 30, cost -19.89614177
+Pre-training layer 2, epoch 30, representative training free energy -32481.4709229
+Pre-training layer 2, epoch 30, validation free energy -32299.5207754
+Pre-training layer 2, epoch 31, cost -19.8842475363
+Pre-training layer 2, epoch 32, cost -19.8824272664
+Pre-training layer 2, epoch 33, cost -19.8323611081
+Pre-training layer 2, epoch 34, cost -19.7947141984
+Pre-training layer 2, epoch 35, cost -19.7841129157
+Pre-training layer 2, epoch 35, representative training free energy -32947.0438789
+Pre-training layer 2, epoch 35, validation free energy -32793.7428672
+Pre-training layer 2, epoch 36, cost -19.7525511195
+Pre-training layer 2, epoch 37, cost -19.7357007128
+Pre-training layer 2, epoch 38, cost -19.7227612667
+Pre-training layer 2, epoch 39, cost -19.6825120036
+Pre-training layer 2, epoch 40, cost -19.670066082
+Pre-training layer 2, epoch 40, representative training free energy -33079.9769795
+Pre-training layer 2, epoch 40, validation free energy -33081.6639277
+Pre-training layer 2, epoch 41, cost -19.6516302929
+Pre-training layer 2, epoch 42, cost -19.6472529901
+Pre-training layer 2, epoch 43, cost -19.6109198399
+Pre-training layer 2, epoch 44, cost -19.6124496937
+Pre-training layer 2, epoch 45, cost -19.5953434175
+Pre-training layer 2, epoch 45, representative training free energy -33683.1527773
+Pre-training layer 2, epoch 45, validation free energy -33638.400876
+Pre-training layer 2, epoch 46, cost -19.5525683263
+Pre-training layer 2, epoch 47, cost -19.5392410202
+Pre-training layer 2, epoch 48, cost -19.5370417639
+Pre-training layer 2, epoch 49, cost -19.535901694
+Pre-training layer 2, epoch 50, cost -19.5295066732
+Pre-training layer 2, epoch 50, representative training free energy -34021.3867891
+Pre-training layer 2, epoch 50, validation free energy -34011.4618008
+Pre-training layer 2, epoch 51, cost -19.4989887161
+Pre-training layer 2, epoch 52, cost -19.4972967326
+Pre-training layer 2, epoch 53, cost -19.4921811619
+Pre-training layer 2, epoch 54, cost -19.445820741
+Pre-training layer 2, epoch 55, cost -19.4489768626
+Pre-training layer 2, epoch 55, representative training free energy -34434.5558203
+Pre-training layer 2, epoch 55, validation free energy -34467.0491406
+Pre-training layer 2, epoch 56, cost -19.4383006172
+Pre-training layer 2, epoch 57, cost -19.4113985348
+Pre-training layer 2, epoch 58, cost -19.4164755472
+Pre-training layer 2, epoch 59, cost -19.4001073602
+Pre-training layer 2, epoch 60, cost -19.3775018539
+Pre-training layer 2, epoch 60, representative training free energy -34713.3463047
+Pre-training layer 2, epoch 60, validation free energy -34761.9558096
+Pre-training layer 2, epoch 61, cost -19.3575678425
+Pre-training layer 2, epoch 62, cost -19.3535794455
+Pre-training layer 2, epoch 63, cost -19.3873471864
+Pre-training layer 2, epoch 64, cost -19.3493299561
+Pre-training layer 2, epoch 65, cost -19.3366957887
+Pre-training layer 2, epoch 65, representative training free energy -35151.7165508
+Pre-training layer 2, epoch 65, validation free energy -35202.7247402
+Pre-training layer 2, epoch 66, cost -19.3216508706
+Pre-training layer 2, epoch 67, cost -19.3273355312
+Pre-training layer 2, epoch 68, cost -19.3080380834
+Pre-training layer 2, epoch 69, cost -19.2825504684
+Pre-training layer 2, epoch 70, cost -19.2804530036
+Pre-training layer 2, epoch 70, representative training free energy -35227.322623
+Pre-training layer 2, epoch 70, validation free energy -35216.8778467
+Pre-training layer 2, epoch 71, cost -19.2647805424
+Pre-training layer 2, epoch 72, cost -19.2486918805
+Pre-training layer 2, epoch 73, cost -19.2559046885
+Pre-training layer 2, epoch 74, cost -19.264249773
+Pre-training layer 2, epoch 75, cost -19.254590086
+Pre-training layer 2, epoch 75, representative training free energy -35770.4145889
+Pre-training layer 2, epoch 75, validation free energy -35775.6901094
+Pre-training layer 2, epoch 76, cost -19.2707490203
+Pre-training layer 2, epoch 77, cost -19.2330484549
+Pre-training layer 2, epoch 78, cost -19.2028339036
+Pre-training layer 2, epoch 79, cost -19.1953134429
+Pre-training layer 2, epoch 80, cost -19.2165203508
+Pre-training layer 2, epoch 80, representative training free energy -35903.8568799
+Pre-training layer 2, epoch 80, validation free energy -35901.5412461
+Pre-training layer 2, epoch 81, cost -19.2205154126
+Pre-training layer 2, epoch 82, cost -19.1879359175
+Pre-training layer 2, epoch 83, cost -19.2012151852
+Pre-training layer 2, epoch 84, cost -19.1912058303
+Pre-training layer 2, epoch 85, cost -19.1990848077
+Pre-training layer 2, epoch 85, representative training free energy -36152.917834
+Pre-training layer 2, epoch 85, validation free energy -36092.1788623
+Pre-training layer 2, epoch 86, cost -19.1332660637
+Pre-training layer 2, epoch 87, cost -19.1728242861
+Pre-training layer 2, epoch 88, cost -19.1375369593
+Pre-training layer 2, epoch 89, cost -19.1349617761
+Pre-training layer 2, epoch 90, cost -19.1371114229
+Pre-training layer 2, epoch 90, representative training free energy -36500.3931133
+Pre-training layer 2, epoch 90, validation free energy -36428.8853584
+Pre-training layer 2, epoch 91, cost -19.141221927
+Pre-training layer 2, epoch 92, cost -19.1570253309
+Pre-training layer 2, epoch 93, cost -19.1321638699
+Pre-training layer 2, epoch 94, cost -19.1555539881
+Pre-training layer 2, epoch 95, cost -19.0962919502
+Pre-training layer 2, epoch 95, representative training free energy -36787.992458
+Pre-training layer 2, epoch 95, validation free energy -36666.7741299
+Pre-training layer 2, epoch 96, cost -19.1033434232
+Pre-training layer 2, epoch 97, cost -19.1277699235
+Pre-training layer 2, epoch 98, cost -19.0828322519
+Pre-training layer 2, epoch 99, cost -19.1153994509
+The pretraining code for file dbn_loop.pyc ran for 3.54m... getting the finetuning functions... finetuning the model
+epoch 1, minibatch 1500/1500, validation error 10.100000 %
+     epoch 1, minibatch 1500/1500, test error of best model 9.300000 %
+epoch 2, minibatch 1500/1500, validation error 8.200000 %
+     epoch 2, minibatch 1500/1500, test error of best model 7.200000 %
+epoch 3, minibatch 1500/1500, validation error 7.500000 %
+     epoch 3, minibatch 1500/1500, test error of best model 6.800000 %
+epoch 4, minibatch 1500/1500, validation error 6.700000 %
+     epoch 4, minibatch 1500/1500, test error of best model 6.300000 %
+epoch 5, minibatch 1500/1500, validation error 6.200000 %
+     epoch 5, minibatch 1500/1500, test error of best model 6.100000 %
+epoch 6, minibatch 1500/1500, validation error 5.800000 %
+     epoch 6, minibatch 1500/1500, test error of best model 6.000000 %
+epoch 7, minibatch 1500/1500, validation error 5.300000 %
+     epoch 7, minibatch 1500/1500, test error of best model 5.800000 %
+epoch 8, minibatch 1500/1500, validation error 5.200000 %
+     epoch 8, minibatch 1500/1500, test error of best model 5.600000 %
+epoch 9, minibatch 1500/1500, validation error 5.200000 %
+epoch 10, minibatch 1500/1500, validation error 5.200000 %
+epoch 11, minibatch 1500/1500, validation error 5.200000 %
+epoch 12, minibatch 1500/1500, validation error 5.100000 %
+     epoch 12, minibatch 1500/1500, test error of best model 4.800000 %
+epoch 13, minibatch 1500/1500, validation error 5.100000 %
+epoch 14, minibatch 1500/1500, validation error 5.300000 %
+epoch 15, minibatch 1500/1500, validation error 5.400000 %
+epoch 16, minibatch 1500/1500, validation error 5.200000 %
+epoch 17, minibatch 1500/1500, validation error 5.200000 %
+epoch 18, minibatch 1500/1500, validation error 5.300000 %
+epoch 19, minibatch 1500/1500, validation error 5.300000 %
+epoch 20, minibatch 1500/1500, validation error 5.200000 %
+epoch 21, minibatch 1500/1500, validation error 5.100000 %
+epoch 22, minibatch 1500/1500, validation error 5.100000 %
+epoch 23, minibatch 1500/1500, validation error 5.100000 %
+Optimization complete with best validation score of 5.100000 %, obtained at iteration 18000, with test performance 4.800000 %
+The fine tuning code for file dbn_loop.pyc ran for 0.20m
+
+
+==========Samples: (15000, 2000, 2000) ===========
+
+... building the model
+... getting the pretraining functions
+... pre-training the model
+Pre-training layer 0, epoch 0, cost -165.485596375
+Pre-training layer 0, epoch 0, representative training free energy -103.090150797
+Pre-training layer 0, epoch 0, validation free energy -102.655739908
+Pre-training layer 0, epoch 1, cost -126.947616236
+Pre-training layer 0, epoch 2, cost -118.67457695
+Pre-training layer 0, epoch 3, cost -113.912809245
+Pre-training layer 0, epoch 4, cost -110.622134491
+Pre-training layer 0, epoch 5, cost -108.154807297
+Pre-training layer 0, epoch 5, representative training free energy -159.664432232
+Pre-training layer 0, epoch 5, validation free energy -158.935331488
+Pre-training layer 0, epoch 6, cost -106.257929403
+Pre-training layer 0, epoch 7, cost -104.612894709
+Pre-training layer 0, epoch 8, cost -103.231167104
+Pre-training layer 0, epoch 9, cost -101.995111326
+Pre-training layer 0, epoch 10, cost -101.07068986
+Pre-training layer 0, epoch 10, representative training free energy -182.829154907
+Pre-training layer 0, epoch 10, validation free energy -181.396524578
+Pre-training layer 0, epoch 11, cost -100.098979561
+Pre-training layer 0, epoch 12, cost -99.3046718775
+Pre-training layer 0, epoch 13, cost -98.5286392644
+Pre-training layer 0, epoch 14, cost -97.8062854614
+Pre-training layer 0, epoch 15, cost -97.2172596283
+Pre-training layer 0, epoch 15, representative training free energy -202.738145447
+Pre-training layer 0, epoch 15, validation free energy -200.844982929
+Pre-training layer 0, epoch 16, cost -96.6516924006
+Pre-training layer 0, epoch 17, cost -96.1589223455
+Pre-training layer 0, epoch 18, cost -95.545112353
+Pre-training layer 0, epoch 19, cost -95.1237554754
+Pre-training layer 0, epoch 20, cost -94.5998228683
+Pre-training layer 0, epoch 20, representative training free energy -217.220520302
+Pre-training layer 0, epoch 20, validation free energy -215.376234467
+Pre-training layer 0, epoch 21, cost -94.1765813624
+Pre-training layer 0, epoch 22, cost -93.7721694438
+Pre-training layer 0, epoch 23, cost -93.3495583216
+Pre-training layer 0, epoch 24, cost -93.0395559591
+Pre-training layer 0, epoch 25, cost -92.6360994822
+Pre-training layer 0, epoch 25, representative training free energy -233.057489258
+Pre-training layer 0, epoch 25, validation free energy -231.088628975
+Pre-training layer 0, epoch 26, cost -92.2490954768
+Pre-training layer 0, epoch 27, cost -91.9447889404
+Pre-training layer 0, epoch 28, cost -91.5943833338
+Pre-training layer 0, epoch 29, cost -91.2983549728
+Pre-training layer 0, epoch 30, cost -91.0080015284
+Pre-training layer 0, epoch 30, representative training free energy -244.13785125
+Pre-training layer 0, epoch 30, validation free energy -242.131362442
+Pre-training layer 0, epoch 31, cost -90.769407692
+Pre-training layer 0, epoch 32, cost -90.515364535
+Pre-training layer 0, epoch 33, cost -90.2831199265
+Pre-training layer 0, epoch 34, cost -90.0182129898
+Pre-training layer 0, epoch 35, cost -89.698182073
+Pre-training layer 0, epoch 35, representative training free energy -257.911051559
+Pre-training layer 0, epoch 35, validation free energy -255.789978355
+Pre-training layer 0, epoch 36, cost -89.5795837326
+Pre-training layer 0, epoch 37, cost -89.3116376419
+Pre-training layer 0, epoch 38, cost -89.111409757
+Pre-training layer 0, epoch 39, cost -88.9490039113
+Pre-training layer 0, epoch 40, cost -88.7748195089
+Pre-training layer 0, epoch 40, representative training free energy -270.285333488
+Pre-training layer 0, epoch 40, validation free energy -267.895722717
+Pre-training layer 0, epoch 41, cost -88.5810304133
+Pre-training layer 0, epoch 42, cost -88.3896763153
+Pre-training layer 0, epoch 43, cost -88.3025350113
+Pre-training layer 0, epoch 44, cost -88.0813820979
+Pre-training layer 0, epoch 45, cost -87.9562273839
+Pre-training layer 0, epoch 45, representative training free energy -279.114408363
+Pre-training layer 0, epoch 45, validation free energy -276.644945702
+Pre-training layer 0, epoch 46, cost -87.8245789413
+Pre-training layer 0, epoch 47, cost -87.591077713
+Pre-training layer 0, epoch 48, cost -87.5223930232
+Pre-training layer 0, epoch 49, cost -87.3819528351
+Pre-training layer 0, epoch 50, cost -87.2547358907
+Pre-training layer 0, epoch 50, representative training free energy -288.237301216
+Pre-training layer 0, epoch 50, validation free energy -285.606900955
+Pre-training layer 0, epoch 51, cost -87.1654496002
+Pre-training layer 0, epoch 52, cost -87.0179125239
+Pre-training layer 0, epoch 53, cost -86.9193647537
+Pre-training layer 0, epoch 54, cost -86.7902788417
+Pre-training layer 0, epoch 55, cost -86.7876510798
+Pre-training layer 0, epoch 55, representative training free energy -295.583860329
+Pre-training layer 0, epoch 55, validation free energy -293.004969391
+Pre-training layer 0, epoch 56, cost -86.653685201
+Pre-training layer 0, epoch 57, cost -86.5235145543
+Pre-training layer 0, epoch 58, cost -86.3888596624
+Pre-training layer 0, epoch 59, cost -86.3707044805
+Pre-training layer 0, epoch 60, cost -86.2910119019
+Pre-training layer 0, epoch 60, representative training free energy -300.636733498
+Pre-training layer 0, epoch 60, validation free energy -297.693950195
+Pre-training layer 0, epoch 61, cost -86.1372933477
+Pre-training layer 0, epoch 62, cost -86.046264918
+Pre-training layer 0, epoch 63, cost -85.9993796895
+Pre-training layer 0, epoch 64, cost -85.968279185
+Pre-training layer 0, epoch 65, cost -85.8787997055
+Pre-training layer 0, epoch 65, representative training free energy -305.784827583
+Pre-training layer 0, epoch 65, validation free energy -303.034379837
+Pre-training layer 0, epoch 66, cost -85.8377565867
+Pre-training layer 0, epoch 67, cost -85.7514242757
+Pre-training layer 0, epoch 68, cost -85.6628246613
+Pre-training layer 0, epoch 69, cost -85.6382016093
+Pre-training layer 0, epoch 70, cost -85.5006583049
+Pre-training layer 0, epoch 70, representative training free energy -312.365826973
+Pre-training layer 0, epoch 70, validation free energy -309.273389519
+Pre-training layer 0, epoch 71, cost -85.4974160233
+Pre-training layer 0, epoch 72, cost -85.3416221288
+Pre-training layer 0, epoch 73, cost -85.2977695923
+Pre-training layer 0, epoch 74, cost -85.2710371399
+Pre-training layer 0, epoch 75, cost -85.2337416356
+Pre-training layer 0, epoch 75, representative training free energy -316.108971367
+Pre-training layer 0, epoch 75, validation free energy -313.133359627
+Pre-training layer 0, epoch 76, cost -85.1877265345
+Pre-training layer 0, epoch 77, cost -85.1056320546
+Pre-training layer 0, epoch 78, cost -85.0057868754
+Pre-training layer 0, epoch 79, cost -84.9967451146
+Pre-training layer 0, epoch 80, cost -84.935470576
+Pre-training layer 0, epoch 80, representative training free energy -319.867161194
+Pre-training layer 0, epoch 80, validation free energy -316.821963898
+Pre-training layer 0, epoch 81, cost -84.9046657715
+Pre-training layer 0, epoch 82, cost -84.8685911204
+Pre-training layer 0, epoch 83, cost -84.8178247833
+Pre-training layer 0, epoch 84, cost -84.7582020823
+Pre-training layer 0, epoch 85, cost -84.7250506236
+Pre-training layer 0, epoch 85, representative training free energy -323.571462128
+Pre-training layer 0, epoch 85, validation free energy -320.368913239
+Pre-training layer 0, epoch 86, cost -84.671622172
+Pre-training layer 0, epoch 87, cost -84.622522344
+Pre-training layer 0, epoch 88, cost -84.5602871399
+Pre-training layer 0, epoch 89, cost -84.4974549459
+Pre-training layer 0, epoch 90, cost -84.4482532094
+Pre-training layer 0, epoch 90, representative training free energy -327.775491898
+Pre-training layer 0, epoch 90, validation free energy -324.536936172
+Pre-training layer 0, epoch 91, cost -84.3880223846
+Pre-training layer 0, epoch 92, cost -84.3661098073
+Pre-training layer 0, epoch 93, cost -84.3438669179
+Pre-training layer 0, epoch 94, cost -84.2750367991
+Pre-training layer 0, epoch 95, cost -84.3283904012
+Pre-training layer 0, epoch 95, representative training free energy -330.977847626
+Pre-training layer 0, epoch 95, validation free energy -327.63982251
+Pre-training layer 0, epoch 96, cost -84.2081311925
+Pre-training layer 0, epoch 97, cost -84.1407952932
+Pre-training layer 0, epoch 98, cost -84.1551979828
+Pre-training layer 0, epoch 99, cost -84.1048876648
+Pre-training layer 1, epoch 0, cost -44.6643055013
+Pre-training layer 1, epoch 0, representative training free energy -6580.54720715
+Pre-training layer 1, epoch 0, validation free energy -6585.37925421
+Pre-training layer 1, epoch 1, cost -35.7731158409
+Pre-training layer 1, epoch 2, cost -33.3198667361
+Pre-training layer 1, epoch 3, cost -31.9301516953
+Pre-training layer 1, epoch 4, cost -30.9574048335
+Pre-training layer 1, epoch 5, cost -30.2950510559
+Pre-training layer 1, epoch 5, representative training free energy -9050.09209753
+Pre-training layer 1, epoch 5, validation free energy -9057.95147729
+Pre-training layer 1, epoch 6, cost -29.7048718198
+Pre-training layer 1, epoch 7, cost -29.2434258766
+Pre-training layer 1, epoch 8, cost -28.8023650195
+Pre-training layer 1, epoch 9, cost -28.4769768397
+Pre-training layer 1, epoch 10, cost -28.2039119606
+Pre-training layer 1, epoch 10, representative training free energy -9979.83555554
+Pre-training layer 1, epoch 10, validation free energy -9980.64267706
+Pre-training layer 1, epoch 11, cost -27.9630560252
+Pre-training layer 1, epoch 12, cost -27.6760005671
+Pre-training layer 1, epoch 13, cost -27.4634554965
+Pre-training layer 1, epoch 14, cost -27.2884754969
+Pre-training layer 1, epoch 15, cost -27.1271415723
+Pre-training layer 1, epoch 15, representative training free energy -10535.1546768
+Pre-training layer 1, epoch 15, validation free energy -10539.2268273
+Pre-training layer 1, epoch 16, cost -26.9062074521
+Pre-training layer 1, epoch 17, cost -26.7836482417
+Pre-training layer 1, epoch 18, cost -26.6717232755
+Pre-training layer 1, epoch 19, cost -26.5053210449
+Pre-training layer 1, epoch 20, cost -26.3964798508
+Pre-training layer 1, epoch 20, representative training free energy -11057.5674286
+Pre-training layer 1, epoch 20, validation free energy -11061.9134825
+Pre-training layer 1, epoch 21, cost -26.2373103472
+Pre-training layer 1, epoch 22, cost -26.1470333277
+Pre-training layer 1, epoch 23, cost -26.0544656169
+Pre-training layer 1, epoch 24, cost -25.9115048625
+Pre-training layer 1, epoch 25, cost -25.8594051514
+Pre-training layer 1, epoch 25, representative training free energy -11365.5640635
+Pre-training layer 1, epoch 25, validation free energy -11371.0424268
+Pre-training layer 1, epoch 26, cost -25.7854684779
+Pre-training layer 1, epoch 27, cost -25.6780850741
+Pre-training layer 1, epoch 28, cost -25.5955267639
+Pre-training layer 1, epoch 29, cost -25.4919231822
+Pre-training layer 1, epoch 30, cost -25.4632690481
+Pre-training layer 1, epoch 30, representative training free energy -11692.9471564
+Pre-training layer 1, epoch 30, validation free energy -11702.3638749
+Pre-training layer 1, epoch 31, cost -25.3828749377
+Pre-training layer 1, epoch 32, cost -25.3163151894
+Pre-training layer 1, epoch 33, cost -25.2593361918
+Pre-training layer 1, epoch 34, cost -25.188460935
+Pre-training layer 1, epoch 35, cost -25.0982482961
+Pre-training layer 1, epoch 35, representative training free energy -11962.5227544
+Pre-training layer 1, epoch 35, validation free energy -11968.8526532
+Pre-training layer 1, epoch 36, cost -25.0531273232
+Pre-training layer 1, epoch 37, cost -25.0310183296
+Pre-training layer 1, epoch 38, cost -24.9653203684
+Pre-training layer 1, epoch 39, cost -24.926749766
+Pre-training layer 1, epoch 40, cost -24.8312348544
+Pre-training layer 1, epoch 40, representative training free energy -12147.3981609
+Pre-training layer 1, epoch 40, validation free energy -12159.7792677
+Pre-training layer 1, epoch 41, cost -24.7695651754
+Pre-training layer 1, epoch 42, cost -24.7729499626
+Pre-training layer 1, epoch 43, cost -24.6826238327
+Pre-training layer 1, epoch 44, cost -24.6469468613
+Pre-training layer 1, epoch 45, cost -24.5954680061
+Pre-training layer 1, epoch 45, representative training free energy -12353.5213402
+Pre-training layer 1, epoch 45, validation free energy -12362.3690408
+Pre-training layer 1, epoch 46, cost -24.5310828743
+Pre-training layer 1, epoch 47, cost -24.5451412023
+Pre-training layer 1, epoch 48, cost -24.4825274544
+Pre-training layer 1, epoch 49, cost -24.4417582067
+Pre-training layer 1, epoch 50, cost -24.3876895332
+Pre-training layer 1, epoch 50, representative training free energy -12569.6545892
+Pre-training layer 1, epoch 50, validation free energy -12580.1922128
+Pre-training layer 1, epoch 51, cost -24.3308053525
+Pre-training layer 1, epoch 52, cost -24.3248149656
+Pre-training layer 1, epoch 53, cost -24.2810240809
+Pre-training layer 1, epoch 54, cost -24.2859133606
+Pre-training layer 1, epoch 55, cost -24.173506237
+Pre-training layer 1, epoch 55, representative training free energy -12757.8316086
+Pre-training layer 1, epoch 55, validation free energy -12768.4856201
+Pre-training layer 1, epoch 56, cost -24.2346985067
+Pre-training layer 1, epoch 57, cost -24.1768166084
+Pre-training layer 1, epoch 58, cost -24.1221130651
+Pre-training layer 1, epoch 59, cost -24.1237569008
+Pre-training layer 1, epoch 60, cost -24.048626943
+Pre-training layer 1, epoch 60, representative training free energy -12865.7738427
+Pre-training layer 1, epoch 60, validation free energy -12877.640684
+Pre-training layer 1, epoch 61, cost -24.0335605202
+Pre-training layer 1, epoch 62, cost -24.0050567067
+Pre-training layer 1, epoch 63, cost -23.9852153002
+Pre-training layer 1, epoch 64, cost -23.9393296789
+Pre-training layer 1, epoch 65, cost -23.9032408702
+Pre-training layer 1, epoch 65, representative training free energy -13064.6610006
+Pre-training layer 1, epoch 65, validation free energy -13074.6964696
+Pre-training layer 1, epoch 66, cost -23.8767982521
+Pre-training layer 1, epoch 67, cost -23.8749936066
+Pre-training layer 1, epoch 68, cost -23.829931544
+Pre-training layer 1, epoch 69, cost -23.8152265752
+Pre-training layer 1, epoch 70, cost -23.8059357974
+Pre-training layer 1, epoch 70, representative training free energy -13218.2946173
+Pre-training layer 1, epoch 70, validation free energy -13222.9143274
+Pre-training layer 1, epoch 71, cost -23.7317608337
+Pre-training layer 1, epoch 72, cost -23.7462118657
+Pre-training layer 1, epoch 73, cost -23.6634101156
+Pre-training layer 1, epoch 74, cost -23.6951367149
+Pre-training layer 1, epoch 75, cost -23.657340154
+Pre-training layer 1, epoch 75, representative training free energy -13330.4002007
+Pre-training layer 1, epoch 75, validation free energy -13334.045261
+Pre-training layer 1, epoch 76, cost -23.6511033274
+Pre-training layer 1, epoch 77, cost -23.6376236801
+Pre-training layer 1, epoch 78, cost -23.5647790922
+Pre-training layer 1, epoch 79, cost -23.535587499
+Pre-training layer 1, epoch 80, cost -23.5455175959
+Pre-training layer 1, epoch 80, representative training free energy -13459.780072
+Pre-training layer 1, epoch 80, validation free energy -13465.0153636
+Pre-training layer 1, epoch 81, cost -23.5428278503
+Pre-training layer 1, epoch 82, cost -23.530860054
+Pre-training layer 1, epoch 83, cost -23.4683927841
+Pre-training layer 1, epoch 84, cost -23.4715271924
+Pre-training layer 1, epoch 85, cost -23.4557071584
+Pre-training layer 1, epoch 85, representative training free energy -13555.1995814
+Pre-training layer 1, epoch 85, validation free energy -13558.969624
+Pre-training layer 1, epoch 86, cost -23.4328638547
+Pre-training layer 1, epoch 87, cost -23.4054510791
+Pre-training layer 1, epoch 88, cost -23.382648407
+Pre-training layer 1, epoch 89, cost -23.3779484825
+Pre-training layer 1, epoch 90, cost -23.3339609261
+Pre-training layer 1, epoch 90, representative training free energy -13678.7693035
+Pre-training layer 1, epoch 90, validation free energy -13691.75425
+Pre-training layer 1, epoch 91, cost -23.3138185412
+Pre-training layer 1, epoch 92, cost -23.3068918953
+Pre-training layer 1, epoch 93, cost -23.2827853877
+Pre-training layer 1, epoch 94, cost -23.2672398885
+Pre-training layer 1, epoch 95, cost -23.2689814275
+Pre-training layer 1, epoch 95, representative training free energy -13826.7547014
+Pre-training layer 1, epoch 95, validation free energy -13837.2824602
+Pre-training layer 1, epoch 96, cost -23.2035297254
+Pre-training layer 1, epoch 97, cost -23.2497717374
+Pre-training layer 1, epoch 98, cost -23.1901994769
+Pre-training layer 1, epoch 99, cost -23.1810885315
+Pre-training layer 2, epoch 0, cost -32.7974700241
+Pre-training layer 2, epoch 0, representative training free energy -24628.7062363
+Pre-training layer 2, epoch 0, validation free energy -24503.2822715
+Pre-training layer 2, epoch 1, cost -25.7166668701
+Pre-training layer 2, epoch 2, cost -23.9228252468
+Pre-training layer 2, epoch 3, cost -23.0024518159
+Pre-training layer 2, epoch 4, cost -22.4150056947
+Pre-training layer 2, epoch 5, cost -21.9715039864
+Pre-training layer 2, epoch 5, representative training free energy -29099.1426445
+Pre-training layer 2, epoch 5, validation free energy -28817.6224268
+Pre-training layer 2, epoch 6, cost -21.6952547398
+Pre-training layer 2, epoch 7, cost -21.3843150603
+Pre-training layer 2, epoch 8, cost -21.2076475156
+Pre-training layer 2, epoch 9, cost -21.0515495516
+Pre-training layer 2, epoch 10, cost -20.8886315708
+Pre-training layer 2, epoch 10, representative training free energy -29928.2188579
+Pre-training layer 2, epoch 10, validation free energy -29671.7491904
+Pre-training layer 2, epoch 11, cost -20.7758828532
+Pre-training layer 2, epoch 12, cost -20.6142714863
+Pre-training layer 2, epoch 13, cost -20.5543193582
+Pre-training layer 2, epoch 14, cost -20.4361526108
+Pre-training layer 2, epoch 15, cost -20.345330663
+Pre-training layer 2, epoch 15, representative training free energy -30446.515957
+Pre-training layer 2, epoch 15, validation free energy -30189.4027085
+Pre-training layer 2, epoch 16, cost -20.2895381482
+Pre-training layer 2, epoch 17, cost -20.2486731707
+Pre-training layer 2, epoch 18, cost -20.1681585649
+Pre-training layer 2, epoch 19, cost -20.1166529617
+Pre-training layer 2, epoch 20, cost -20.0581340415
+Pre-training layer 2, epoch 20, representative training free energy -30925.8062754
+Pre-training layer 2, epoch 20, validation free energy -30711.0121968
+Pre-training layer 2, epoch 21, cost -19.9871792138
+Pre-training layer 2, epoch 22, cost -19.9232722206
+Pre-training layer 2, epoch 23, cost -19.912793705
+Pre-training layer 2, epoch 24, cost -19.8531560701
+Pre-training layer 2, epoch 25, cost -19.8230869579
+Pre-training layer 2, epoch 25, representative training free energy -31578.1388833
+Pre-training layer 2, epoch 25, validation free energy -31339.6221128
+Pre-training layer 2, epoch 26, cost -19.7706187808
+Pre-training layer 2, epoch 27, cost -19.7560176093
+Pre-training layer 2, epoch 28, cost -19.6917896366
+Pre-training layer 2, epoch 29, cost -19.6533661906
+Pre-training layer 2, epoch 30, cost -19.6507454344
+Pre-training layer 2, epoch 30, representative training free energy -32159.9666543
+Pre-training layer 2, epoch 30, validation free energy -31943.268001
+Pre-training layer 2, epoch 31, cost -19.6418720608
+Pre-training layer 2, epoch 32, cost -19.5853279578
+Pre-training layer 2, epoch 33, cost -19.582115317
+Pre-training layer 2, epoch 34, cost -19.5214444536
+Pre-training layer 2, epoch 35, cost -19.4843724524
+Pre-training layer 2, epoch 35, representative training free energy -32619.1675054
+Pre-training layer 2, epoch 35, validation free energy -32411.3531484
+Pre-training layer 2, epoch 36, cost -19.4922694194
+Pre-training layer 2, epoch 37, cost -19.4550321248
+Pre-training layer 2, epoch 38, cost -19.4554148223
+Pre-training layer 2, epoch 39, cost -19.4150905234
+Pre-training layer 2, epoch 40, cost -19.3716754233
+Pre-training layer 2, epoch 40, representative training free energy -32950.2795278
+Pre-training layer 2, epoch 40, validation free energy -32755.5099478
+Pre-training layer 2, epoch 41, cost -19.3864458942
+Pre-training layer 2, epoch 42, cost -19.3572254569
+Pre-training layer 2, epoch 43, cost -19.3284357313
+Pre-training layer 2, epoch 44, cost -19.3177824732
+Pre-training layer 2, epoch 45, cost -19.3060787938
+Pre-training layer 2, epoch 45, representative training free energy -33169.9358433
+Pre-training layer 2, epoch 45, validation free energy -32943.6515918
+Pre-training layer 2, epoch 46, cost -19.2660865815
+Pre-training layer 2, epoch 47, cost -19.2570944303
+Pre-training layer 2, epoch 48, cost -19.2503087419
+Pre-training layer 2, epoch 49, cost -19.2345547492
+Pre-training layer 2, epoch 50, cost -19.2318618635
+Pre-training layer 2, epoch 50, representative training free energy -33671.9784873
+Pre-training layer 2, epoch 50, validation free energy -33492.2557725
+Pre-training layer 2, epoch 51, cost -19.2417963022
+Pre-training layer 2, epoch 52, cost -19.1940528297
+Pre-training layer 2, epoch 53, cost -19.2004425627
+Pre-training layer 2, epoch 54, cost -19.1576732769
+Pre-training layer 2, epoch 55, cost -19.1443697891
+Pre-training layer 2, epoch 55, representative training free energy -33739.9535322
+Pre-training layer 2, epoch 55, validation free energy -33543.7392593
+Pre-training layer 2, epoch 56, cost -19.149106835
+Pre-training layer 2, epoch 57, cost -19.111375323
+Pre-training layer 2, epoch 58, cost -19.1028774033
+Pre-training layer 2, epoch 59, cost -19.1367846788
+Pre-training layer 2, epoch 60, cost -19.0982832724
+Pre-training layer 2, epoch 60, representative training free energy -34036.7125859
+Pre-training layer 2, epoch 60, validation free energy -33880.3144399
+Pre-training layer 2, epoch 61, cost -19.1253424454
+Pre-training layer 2, epoch 62, cost -19.0795054601
+Pre-training layer 2, epoch 63, cost -19.0760291678
+Pre-training layer 2, epoch 64, cost -19.0968099353
+Pre-training layer 2, epoch 65, cost -19.0240070051
+Pre-training layer 2, epoch 65, representative training free energy -34417.3250049
+Pre-training layer 2, epoch 65, validation free energy -34193.866811
+Pre-training layer 2, epoch 66, cost -19.0332523925
+Pre-training layer 2, epoch 67, cost -19.02359928
+Pre-training layer 2, epoch 68, cost -19.0044273872
+Pre-training layer 2, epoch 69, cost -19.0302301954
+Pre-training layer 2, epoch 70, cost -18.9832923724
+Pre-training layer 2, epoch 70, representative training free energy -34753.9440493
+Pre-training layer 2, epoch 70, validation free energy -34552.45973
+Pre-training layer 2, epoch 71, cost -19.0088467337
+Pre-training layer 2, epoch 72, cost -18.9918830496
+Pre-training layer 2, epoch 73, cost -18.9559124978
+Pre-training layer 2, epoch 74, cost -18.9662688249
+Pre-training layer 2, epoch 75, cost -18.9557941303
+Pre-training layer 2, epoch 75, representative training free energy -34676.2741392
+Pre-training layer 2, epoch 75, validation free energy -34552.7822192
+Pre-training layer 2, epoch 76, cost -18.9313746287
+Pre-training layer 2, epoch 77, cost -18.9287052511
+Pre-training layer 2, epoch 78, cost -18.9284662425
+Pre-training layer 2, epoch 79, cost -18.9149603945
+Pre-training layer 2, epoch 80, cost -18.9277414811
+Pre-training layer 2, epoch 80, representative training free energy -34739.4499165
+Pre-training layer 2, epoch 80, validation free energy -34631.2591909
+Pre-training layer 2, epoch 81, cost -18.9332280655
+Pre-training layer 2, epoch 82, cost -18.8950808366
+Pre-training layer 2, epoch 83, cost -18.916274175
+Pre-training layer 2, epoch 84, cost -18.863099069
+Pre-training layer 2, epoch 85, cost -18.8804580491
+Pre-training layer 2, epoch 85, representative training free energy -35047.6418071
+Pre-training layer 2, epoch 85, validation free energy -34956.055001
+Pre-training layer 2, epoch 86, cost -18.8775914408
+Pre-training layer 2, epoch 87, cost -18.8815951799
+Pre-training layer 2, epoch 88, cost -18.8729489619
+Pre-training layer 2, epoch 89, cost -18.8629404806
+Pre-training layer 2, epoch 90, cost -18.868821619
+Pre-training layer 2, epoch 90, representative training free energy -35198.4091289
+Pre-training layer 2, epoch 90, validation free energy -35143.0625054
+Pre-training layer 2, epoch 91, cost -18.8431917273
+Pre-training layer 2, epoch 92, cost -18.8270627448
+Pre-training layer 2, epoch 93, cost -18.8593600508
+Pre-training layer 2, epoch 94, cost -18.7961995112
+Pre-training layer 2, epoch 95, cost -18.8615944964
+Pre-training layer 2, epoch 95, representative training free energy -35348.8670654
+Pre-training layer 2, epoch 95, validation free energy -35248.0236099
+Pre-training layer 2, epoch 96, cost -18.8052914213
+Pre-training layer 2, epoch 97, cost -18.8358629011
+Pre-training layer 2, epoch 98, cost -18.8222994194
+Pre-training layer 2, epoch 99, cost -18.8016932379
+The pretraining code for file dbn_loop.pyc ran for 3.54m... getting the finetuning functions... finetuning the model
+epoch 1, minibatch 1500/1500, validation error 8.700000 %
+     epoch 1, minibatch 1500/1500, test error of best model 9.800000 %
+epoch 2, minibatch 1500/1500, validation error 7.100000 %
+     epoch 2, minibatch 1500/1500, test error of best model 8.700000 %
+epoch 3, minibatch 1500/1500, validation error 6.050000 %
+     epoch 3, minibatch 1500/1500, test error of best model 7.350000 %
+epoch 4, minibatch 1500/1500, validation error 6.050000 %
+epoch 5, minibatch 1500/1500, validation error 5.850000 %
+     epoch 5, minibatch 1500/1500, test error of best model 6.950000 %
+epoch 6, minibatch 1500/1500, validation error 5.500000 %
+     epoch 6, minibatch 1500/1500, test error of best model 6.750000 %
+epoch 7, minibatch 1500/1500, validation error 5.250000 %
+     epoch 7, minibatch 1500/1500, test error of best model 6.650000 %
+epoch 8, minibatch 1500/1500, validation error 5.050000 %
+     epoch 8, minibatch 1500/1500, test error of best model 6.700000 %
+epoch 9, minibatch 1500/1500, validation error 4.800000 %
+     epoch 9, minibatch 1500/1500, test error of best model 6.650000 %
+epoch 10, minibatch 1500/1500, validation error 4.650000 %
+     epoch 10, minibatch 1500/1500, test error of best model 6.600000 %
+epoch 11, minibatch 1500/1500, validation error 4.500000 %
+     epoch 11, minibatch 1500/1500, test error of best model 6.500000 %
+epoch 12, minibatch 1500/1500, validation error 4.400000 %
+     epoch 12, minibatch 1500/1500, test error of best model 6.450000 %
+epoch 13, minibatch 1500/1500, validation error 4.250000 %
+     epoch 13, minibatch 1500/1500, test error of best model 6.350000 %
+epoch 14, minibatch 1500/1500, validation error 4.150000 %
+     epoch 14, minibatch 1500/1500, test error of best model 6.200000 %
+epoch 15, minibatch 1500/1500, validation error 4.050000 %
+     epoch 15, minibatch 1500/1500, test error of best model 5.900000 %
+epoch 16, minibatch 1500/1500, validation error 4.000000 %
+     epoch 16, minibatch 1500/1500, test error of best model 5.800000 %
+epoch 17, minibatch 1500/1500, validation error 4.050000 %
+epoch 18, minibatch 1500/1500, validation error 3.950000 %
+     epoch 18, minibatch 1500/1500, test error of best model 5.900000 %
+epoch 19, minibatch 1500/1500, validation error 3.950000 %
+epoch 20, minibatch 1500/1500, validation error 3.900000 %
+     epoch 20, minibatch 1500/1500, test error of best model 5.700000 %
+epoch 21, minibatch 1500/1500, validation error 3.750000 %
+     epoch 21, minibatch 1500/1500, test error of best model 5.700000 %
+epoch 22, minibatch 1500/1500, validation error 3.750000 %
+epoch 23, minibatch 1500/1500, validation error 3.750000 %
+epoch 24, minibatch 1500/1500, validation error 3.800000 %
+epoch 25, minibatch 1500/1500, validation error 3.850000 %
+epoch 26, minibatch 1500/1500, validation error 3.900000 %
+epoch 27, minibatch 1500/1500, validation error 3.900000 %
+epoch 28, minibatch 1500/1500, validation error 3.900000 %
+epoch 29, minibatch 1500/1500, validation error 3.900000 %
+epoch 30, minibatch 1500/1500, validation error 3.850000 %
+epoch 31, minibatch 1500/1500, validation error 3.750000 %
+epoch 32, minibatch 1500/1500, validation error 3.800000 %
+epoch 33, minibatch 1500/1500, validation error 3.800000 %
+epoch 34, minibatch 1500/1500, validation error 3.800000 %
+epoch 35, minibatch 1500/1500, validation error 3.850000 %
+epoch 36, minibatch 1500/1500, validation error 3.950000 %
+epoch 37, minibatch 1500/1500, validation error 4.050000 %
+epoch 38, minibatch 1500/1500, validation error 4.050000 %
+epoch 39, minibatch 1500/1500, validation error 4.050000 %
+epoch 40, minibatch 1500/1500, validation error 4.050000 %
+epoch 41, minibatch 1500/1500, validation error 4.050000 %
+Optimization complete with best validation score of 3.750000 %, obtained at iteration 31500, with test performance 5.700000 %
+The fine tuning code for file dbn_loop.pyc ran for 0.36m
+
+
+==========Samples: (15000, 5000, 5000) ===========
+
+... building the model
+... getting the pretraining functions
+... pre-training the model
+Pre-training layer 0, epoch 0, cost -165.424991186
+Pre-training layer 0, epoch 0, representative training free energy -101.948226325
+Pre-training layer 0, epoch 0, validation free energy -102.345333581
+Pre-training layer 0, epoch 1, cost -126.842043177
+Pre-training layer 0, epoch 2, cost -118.635845286
+Pre-training layer 0, epoch 3, cost -113.842932734
+Pre-training layer 0, epoch 4, cost -110.583882665
+Pre-training layer 0, epoch 5, cost -108.137248133
+Pre-training layer 0, epoch 5, representative training free energy -158.846923128
+Pre-training layer 0, epoch 5, validation free energy -158.196151198
+Pre-training layer 0, epoch 6, cost -106.219720113
+Pre-training layer 0, epoch 7, cost -104.563069789
+Pre-training layer 0, epoch 8, cost -103.216791677
+Pre-training layer 0, epoch 9, cost -102.04606041
+Pre-training layer 0, epoch 10, cost -101.077456289
+Pre-training layer 0, epoch 10, representative training free energy -183.780932359
+Pre-training layer 0, epoch 10, validation free energy -182.722401369
+Pre-training layer 0, epoch 11, cost -100.141144213
+Pre-training layer 0, epoch 12, cost -99.3310178909
+Pre-training layer 0, epoch 13, cost -98.5163813858
+Pre-training layer 0, epoch 14, cost -97.8426493073
+Pre-training layer 0, epoch 15, cost -97.2151264496
+Pre-training layer 0, epoch 15, representative training free energy -203.00814966
+Pre-training layer 0, epoch 15, validation free energy -201.747595795
+Pre-training layer 0, epoch 16, cost -96.6305299835
+Pre-training layer 0, epoch 17, cost -96.0361424891
+Pre-training layer 0, epoch 18, cost -95.5326978404
+Pre-training layer 0, epoch 19, cost -95.0592868652
+Pre-training layer 0, epoch 20, cost -94.6351474915
+Pre-training layer 0, epoch 20, representative training free energy -216.795492934
+Pre-training layer 0, epoch 20, validation free energy -215.254727556
+Pre-training layer 0, epoch 21, cost -94.1752502721
+Pre-training layer 0, epoch 22, cost -93.703445165
+Pre-training layer 0, epoch 23, cost -93.3762602259
+Pre-training layer 0, epoch 24, cost -93.0391593984
+Pre-training layer 0, epoch 25, cost -92.6949790751
+Pre-training layer 0, epoch 25, representative training free energy -230.276730623
+Pre-training layer 0, epoch 25, validation free energy -228.635402881
+Pre-training layer 0, epoch 26, cost -92.3436991145
+Pre-training layer 0, epoch 27, cost -92.0091349182
+Pre-training layer 0, epoch 28, cost -91.6734206518
+Pre-training layer 0, epoch 29, cost -91.4262175522
+Pre-training layer 0, epoch 30, cost -91.1666497574
+Pre-training layer 0, epoch 30, representative training free energy -245.312908693
+Pre-training layer 0, epoch 30, validation free energy -243.552496585
+Pre-training layer 0, epoch 31, cost -90.8412097956
+Pre-training layer 0, epoch 32, cost -90.6035189514
+Pre-training layer 0, epoch 33, cost -90.3252157567
+Pre-training layer 0, epoch 34, cost -90.1131870855
+Pre-training layer 0, epoch 35, cost -89.8974090805
+Pre-training layer 0, epoch 35, representative training free energy -257.407426059
+Pre-training layer 0, epoch 35, validation free energy -255.648511078
+Pre-training layer 0, epoch 36, cost -89.6955450414
+Pre-training layer 0, epoch 37, cost -89.4331928329
+Pre-training layer 0, epoch 38, cost -89.2698013535
+Pre-training layer 0, epoch 39, cost -89.1459293722
+Pre-training layer 0, epoch 40, cost -88.9036525904
+Pre-training layer 0, epoch 40, representative training free energy -266.668978314
+Pre-training layer 0, epoch 40, validation free energy -264.937391483
+Pre-training layer 0, epoch 41, cost -88.795591746
+Pre-training layer 0, epoch 42, cost -88.6061242752
+Pre-training layer 0, epoch 43, cost -88.4663837001
+Pre-training layer 0, epoch 44, cost -88.221000946
+Pre-training layer 0, epoch 45, cost -88.1211590881
+Pre-training layer 0, epoch 45, representative training free energy -277.000578903
+Pre-training layer 0, epoch 45, validation free energy -275.023632718
+Pre-training layer 0, epoch 46, cost -87.9542639135
+Pre-training layer 0, epoch 47, cost -87.8496998011
+Pre-training layer 0, epoch 48, cost -87.7103086853
+Pre-training layer 0, epoch 49, cost -87.6152065226
+Pre-training layer 0, epoch 50, cost -87.4584824117
+Pre-training layer 0, epoch 50, representative training free energy -283.715414795
+Pre-training layer 0, epoch 50, validation free energy -281.756977939
+Pre-training layer 0, epoch 51, cost -87.3797975642
+Pre-training layer 0, epoch 52, cost -87.2293488363
+Pre-training layer 0, epoch 53, cost -87.1405375519
+Pre-training layer 0, epoch 54, cost -87.0274757131
+Pre-training layer 0, epoch 55, cost -86.9428312276
+Pre-training layer 0, epoch 55, representative training free energy -292.013269589
+Pre-training layer 0, epoch 55, validation free energy -289.944444931
+Pre-training layer 0, epoch 56, cost -86.836385114
+Pre-training layer 0, epoch 57, cost -86.6949279607
+Pre-training layer 0, epoch 58, cost -86.6932581889
+Pre-training layer 0, epoch 59, cost -86.547864886
+Pre-training layer 0, epoch 60, cost -86.4347321167
+Pre-training layer 0, epoch 60, representative training free energy -297.940395081
+Pre-training layer 0, epoch 60, validation free energy -295.864057501
+Pre-training layer 0, epoch 61, cost -86.338697965
+Pre-training layer 0, epoch 62, cost -86.3270810801
+Pre-training layer 0, epoch 63, cost -86.2130854823
+Pre-training layer 0, epoch 64, cost -86.1183066991
+Pre-training layer 0, epoch 65, cost -86.0640883026
+Pre-training layer 0, epoch 65, representative training free energy -304.091615909
+Pre-training layer 0, epoch 65, validation free energy -302.092584933
+Pre-training layer 0, epoch 66, cost -86.0430842845
+Pre-training layer 0, epoch 67, cost -85.8934667536
+Pre-training layer 0, epoch 68, cost -85.8696888021
+Pre-training layer 0, epoch 69, cost -85.76136866
+Pre-training layer 0, epoch 70, cost -85.6903091456
+Pre-training layer 0, epoch 70, representative training free energy -309.49098642
+Pre-training layer 0, epoch 70, validation free energy -307.322583307
+Pre-training layer 0, epoch 71, cost -85.5974366023
+Pre-training layer 0, epoch 72, cost -85.6206718725
+Pre-training layer 0, epoch 73, cost -85.4760126216
+Pre-training layer 0, epoch 74, cost -85.4770570374
+Pre-training layer 0, epoch 75, cost -85.4235477397
+Pre-training layer 0, epoch 75, representative training free energy -313.977020856
+Pre-training layer 0, epoch 75, validation free energy -311.843853418
+Pre-training layer 0, epoch 76, cost -85.3236794866
+Pre-training layer 0, epoch 77, cost -85.3499741821
+Pre-training layer 0, epoch 78, cost -85.1808582382
+Pre-training layer 0, epoch 79, cost -85.1181706696
+Pre-training layer 0, epoch 80, cost -85.1566172918
+Pre-training layer 0, epoch 80, representative training free energy -316.05602428
+Pre-training layer 0, epoch 80, validation free energy -313.947832715
+Pre-training layer 0, epoch 81, cost -85.040566864
+Pre-training layer 0, epoch 82, cost -84.9865806071
+Pre-training layer 0, epoch 83, cost -84.9240521978
+Pre-training layer 0, epoch 84, cost -84.9118863398
+Pre-training layer 0, epoch 85, cost -84.8287558212
+Pre-training layer 0, epoch 85, representative training free energy -320.402420416
+Pre-training layer 0, epoch 85, validation free energy -318.244359341
+Pre-training layer 0, epoch 86, cost -84.7902434107
+Pre-training layer 0, epoch 87, cost -84.7692292633
+Pre-training layer 0, epoch 88, cost -84.6647112325
+Pre-training layer 0, epoch 89, cost -84.660084142
+Pre-training layer 0, epoch 90, cost -84.5779816208
+Pre-training layer 0, epoch 90, representative training free energy -325.062257739
+Pre-training layer 0, epoch 90, validation free energy -322.863533716
+Pre-training layer 0, epoch 91, cost -84.598631986
+Pre-training layer 0, epoch 92, cost -84.5087454936
+Pre-training layer 0, epoch 93, cost -84.4926017354
+Pre-training layer 0, epoch 94, cost -84.4068747762
+Pre-training layer 0, epoch 95, cost -84.3650914129
+Pre-training layer 0, epoch 95, representative training free energy -326.013457687
+Pre-training layer 0, epoch 95, validation free energy -323.705545819
+Pre-training layer 0, epoch 96, cost -84.3235383555
+Pre-training layer 0, epoch 97, cost -84.2096832784
+Pre-training layer 0, epoch 98, cost -84.1788452352
+Pre-training layer 0, epoch 99, cost -84.1815225932
+Pre-training layer 1, epoch 0, cost -45.128764267
+Pre-training layer 1, epoch 0, representative training free energy -6578.08052529
+Pre-training layer 1, epoch 0, validation free energy -6459.39145542
+Pre-training layer 1, epoch 1, cost -36.2896734403
+Pre-training layer 1, epoch 2, cost -33.6753329366
+Pre-training layer 1, epoch 3, cost -32.1656875903
+Pre-training layer 1, epoch 4, cost -31.1665273348
+Pre-training layer 1, epoch 5, cost -30.3751295522
+Pre-training layer 1, epoch 5, representative training free energy -8914.92509543
+Pre-training layer 1, epoch 5, validation free energy -8759.81515374
+Pre-training layer 1, epoch 6, cost -29.7534217008
+Pre-training layer 1, epoch 7, cost -29.3176127879
+Pre-training layer 1, epoch 8, cost -28.8932862803
+Pre-training layer 1, epoch 9, cost -28.5495524699
+Pre-training layer 1, epoch 10, cost -28.2572047946
+Pre-training layer 1, epoch 10, representative training free energy -9826.50649324
+Pre-training layer 1, epoch 10, validation free energy -9654.53231775
+Pre-training layer 1, epoch 11, cost -27.997554479
+Pre-training layer 1, epoch 12, cost -27.7224055506
+Pre-training layer 1, epoch 13, cost -27.5628733902
+Pre-training layer 1, epoch 14, cost -27.3428274218
+Pre-training layer 1, epoch 15, cost -27.1780146484
+Pre-training layer 1, epoch 15, representative training free energy -10490.1430099
+Pre-training layer 1, epoch 15, validation free energy -10310.4485602
+Pre-training layer 1, epoch 16, cost -26.9921123988
+Pre-training layer 1, epoch 17, cost -26.838055884
+Pre-training layer 1, epoch 18, cost -26.694774437
+Pre-training layer 1, epoch 19, cost -26.5653446757
+Pre-training layer 1, epoch 20, cost -26.456762881
+Pre-training layer 1, epoch 20, representative training free energy -10969.1250843
+Pre-training layer 1, epoch 20, validation free energy -10779.2290067
+Pre-training layer 1, epoch 21, cost -26.3455894318
+Pre-training layer 1, epoch 22, cost -26.2517146657
+Pre-training layer 1, epoch 23, cost -26.1629110031
+Pre-training layer 1, epoch 24, cost -26.0052093862
+Pre-training layer 1, epoch 25, cost -25.9301892064
+Pre-training layer 1, epoch 25, representative training free energy -11299.8187438
+Pre-training layer 1, epoch 25, validation free energy -11105.2639179
+Pre-training layer 1, epoch 26, cost -25.8381422106
+Pre-training layer 1, epoch 27, cost -25.7740710462
+Pre-training layer 1, epoch 28, cost -25.6995259527
+Pre-training layer 1, epoch 29, cost -25.6258205706
+Pre-training layer 1, epoch 30, cost -25.548582784
+Pre-training layer 1, epoch 30, representative training free energy -11658.1306542
+Pre-training layer 1, epoch 30, validation free energy -11455.2216972
+Pre-training layer 1, epoch 31, cost -25.4846403325
+Pre-training layer 1, epoch 32, cost -25.3814878057
+Pre-training layer 1, epoch 33, cost -25.3672428716
+Pre-training layer 1, epoch 34, cost -25.266205466
+Pre-training layer 1, epoch 35, cost -25.2242159627
+Pre-training layer 1, epoch 35, representative training free energy -11889.4217793
+Pre-training layer 1, epoch 35, validation free energy -11686.0222769
+Pre-training layer 1, epoch 36, cost -25.161236454
+Pre-training layer 1, epoch 37, cost -25.1151742376
+Pre-training layer 1, epoch 38, cost -25.0543274587
+Pre-training layer 1, epoch 39, cost -24.9842499288
+Pre-training layer 1, epoch 40, cost -24.9548450826
+Pre-training layer 1, epoch 40, representative training free energy -12151.3335866
+Pre-training layer 1, epoch 40, validation free energy -11941.6438902
+Pre-training layer 1, epoch 41, cost -24.9455090154
+Pre-training layer 1, epoch 42, cost -24.8403418477
+Pre-training layer 1, epoch 43, cost -24.8288781052
+Pre-training layer 1, epoch 44, cost -24.7751504161
+Pre-training layer 1, epoch 45, cost -24.761519132
+Pre-training layer 1, epoch 45, representative training free energy -12348.1448556
+Pre-training layer 1, epoch 45, validation free energy -12134.5409354
+Pre-training layer 1, epoch 46, cost -24.6973278046
+Pre-training layer 1, epoch 47, cost -24.6370797501
+Pre-training layer 1, epoch 48, cost -24.6484402224
+Pre-training layer 1, epoch 49, cost -24.5661935933
+Pre-training layer 1, epoch 50, cost -24.5614465637
+Pre-training layer 1, epoch 50, representative training free energy -12488.5163935
+Pre-training layer 1, epoch 50, validation free energy -12273.1509082
+Pre-training layer 1, epoch 51, cost -24.5090618286
+Pre-training layer 1, epoch 52, cost -24.4838066889
+Pre-training layer 1, epoch 53, cost -24.413363608
+Pre-training layer 1, epoch 54, cost -24.4156065025
+Pre-training layer 1, epoch 55, cost -24.3856326548
+Pre-training layer 1, epoch 55, representative training free energy -12713.7097573
+Pre-training layer 1, epoch 55, validation free energy -12495.3713753
+Pre-training layer 1, epoch 56, cost -24.3252067629
+Pre-training layer 1, epoch 57, cost -24.3368460503
+Pre-training layer 1, epoch 58, cost -24.2565770798
+Pre-training layer 1, epoch 59, cost -24.2605670687
+Pre-training layer 1, epoch 60, cost -24.2091774406
+Pre-training layer 1, epoch 60, representative training free energy -12875.6432717
+Pre-training layer 1, epoch 60, validation free energy -12655.1918288
+Pre-training layer 1, epoch 61, cost -24.1722595278
+Pre-training layer 1, epoch 62, cost -24.1699257685
+Pre-training layer 1, epoch 63, cost -24.1150619125
+Pre-training layer 1, epoch 64, cost -24.0966065241
+Pre-training layer 1, epoch 65, cost -24.059766276
+Pre-training layer 1, epoch 65, representative training free energy -13036.6718886
+Pre-training layer 1, epoch 65, validation free energy -12813.8071878
+Pre-training layer 1, epoch 66, cost -24.0139728279
+Pre-training layer 1, epoch 67, cost -24.0063645821
+Pre-training layer 1, epoch 68, cost -23.9927069244
+Pre-training layer 1, epoch 69, cost -23.9719571431
+Pre-training layer 1, epoch 70, cost -23.9359885076
+Pre-training layer 1, epoch 70, representative training free energy -13113.1435868
+Pre-training layer 1, epoch 70, validation free energy -12888.1368144
+Pre-training layer 1, epoch 71, cost -23.9439742775
+Pre-training layer 1, epoch 72, cost -23.9023171209
+Pre-training layer 1, epoch 73, cost -23.9014064598
+Pre-training layer 1, epoch 74, cost -23.8547644641
+Pre-training layer 1, epoch 75, cost -23.8380554301
+Pre-training layer 1, epoch 75, representative training free energy -13294.8598042
+Pre-training layer 1, epoch 75, validation free energy -13068.1609461
+Pre-training layer 1, epoch 76, cost -23.8251174278
+Pre-training layer 1, epoch 77, cost -23.7980102514
+Pre-training layer 1, epoch 78, cost -23.7587242419
+Pre-training layer 1, epoch 79, cost -23.7341885935
+Pre-training layer 1, epoch 80, cost -23.7125273183
+Pre-training layer 1, epoch 80, representative training free energy -13434.1973055
+Pre-training layer 1, epoch 80, validation free energy -13203.6198763
+Pre-training layer 1, epoch 81, cost -23.7121880964
+Pre-training layer 1, epoch 82, cost -23.6715192095
+Pre-training layer 1, epoch 83, cost -23.6615783895
+Pre-training layer 1, epoch 84, cost -23.6174845759
+Pre-training layer 1, epoch 85, cost -23.6450588938
+Pre-training layer 1, epoch 85, representative training free energy -13513.6623988
+Pre-training layer 1, epoch 85, validation free energy -13281.5546095
+Pre-training layer 1, epoch 86, cost -23.5929438858
+Pre-training layer 1, epoch 87, cost -23.6039759979
+Pre-training layer 1, epoch 88, cost -23.5729778188
+Pre-training layer 1, epoch 89, cost -23.5494403152
+Pre-training layer 1, epoch 90, cost -23.5212871348
+Pre-training layer 1, epoch 90, representative training free energy -13698.1521805
+Pre-training layer 1, epoch 90, validation free energy -13463.3893284
+Pre-training layer 1, epoch 91, cost -23.483241773
+Pre-training layer 1, epoch 92, cost -23.4779176458
+Pre-training layer 1, epoch 93, cost -23.497885896
+Pre-training layer 1, epoch 94, cost -23.4612877884
+Pre-training layer 1, epoch 95, cost -23.4556576602
+Pre-training layer 1, epoch 95, representative training free energy -13775.8235417
+Pre-training layer 1, epoch 95, validation free energy -13541.213544
+Pre-training layer 1, epoch 96, cost -23.3730221494
+Pre-training layer 1, epoch 97, cost -23.4020570399
+Pre-training layer 1, epoch 98, cost -23.3967197927
+Pre-training layer 1, epoch 99, cost -23.4014223061
+Pre-training layer 2, epoch 0, cost -33.2867853203
+Pre-training layer 2, epoch 0, representative training free energy -24859.1994649
+Pre-training layer 2, epoch 0, validation free energy -24285.7184543
+Pre-training layer 2, epoch 1, cost -26.5053218765
+Pre-training layer 2, epoch 2, cost -24.6008114649
+Pre-training layer 2, epoch 3, cost -23.6340395489
+Pre-training layer 2, epoch 4, cost -22.9558739808
+Pre-training layer 2, epoch 5, cost -22.5134021829
+Pre-training layer 2, epoch 5, representative training free energy -28439.5634307
+Pre-training layer 2, epoch 5, validation free energy -27854.619171
+Pre-training layer 2, epoch 6, cost -22.1675469049
+Pre-training layer 2, epoch 7, cost -21.8603511626
+Pre-training layer 2, epoch 8, cost -21.6445863056
+Pre-training layer 2, epoch 9, cost -21.4679261258
+Pre-training layer 2, epoch 10, cost -21.3151330528
+Pre-training layer 2, epoch 10, representative training free energy -29387.7996043
+Pre-training layer 2, epoch 10, validation free energy -28834.3403736
+Pre-training layer 2, epoch 11, cost -21.1893514322
+Pre-training layer 2, epoch 12, cost -21.0379677563
+Pre-training layer 2, epoch 13, cost -20.8996853282
+Pre-training layer 2, epoch 14, cost -20.8441034463
+Pre-training layer 2, epoch 15, cost -20.7318625787
+Pre-training layer 2, epoch 15, representative training free energy -29758.5816949
+Pre-training layer 2, epoch 15, validation free energy -29228.3704486
+Pre-training layer 2, epoch 16, cost -20.6626572431
+Pre-training layer 2, epoch 17, cost -20.590589173
+Pre-training layer 2, epoch 18, cost -20.4795543264
+Pre-training layer 2, epoch 19, cost -20.4510221043
+Pre-training layer 2, epoch 20, cost -20.3508208726
+Pre-training layer 2, epoch 20, representative training free energy -30483.568382
+Pre-training layer 2, epoch 20, validation free energy -29989.8654193
+Pre-training layer 2, epoch 21, cost -20.3077427228
+Pre-training layer 2, epoch 22, cost -20.2906278146
+Pre-training layer 2, epoch 23, cost -20.2039693012
+Pre-training layer 2, epoch 24, cost -20.1812306646
+Pre-training layer 2, epoch 25, cost -20.1315805817
+Pre-training layer 2, epoch 25, representative training free energy -30765.0668176
+Pre-training layer 2, epoch 25, validation free energy -30278.1096109
+Pre-training layer 2, epoch 26, cost -20.0450492223
+Pre-training layer 2, epoch 27, cost -20.0450799115
+Pre-training layer 2, epoch 28, cost -19.9845876217
+Pre-training layer 2, epoch 29, cost -19.9602447701
+Pre-training layer 2, epoch 30, cost -19.9335638377
+Pre-training layer 2, epoch 30, representative training free energy -30996.2549111
+Pre-training layer 2, epoch 30, validation free energy -30524.6455648
+Pre-training layer 2, epoch 31, cost -19.9178753808
+Pre-training layer 2, epoch 32, cost -19.8540794945
+Pre-training layer 2, epoch 33, cost -19.8458371239
+Pre-training layer 2, epoch 34, cost -19.8222039757
+Pre-training layer 2, epoch 35, cost -19.7891044261
+Pre-training layer 2, epoch 35, representative training free energy -31634.6405187
+Pre-training layer 2, epoch 35, validation free energy -31141.2432459
+Pre-training layer 2, epoch 36, cost -19.7712948189
+Pre-training layer 2, epoch 37, cost -19.7553160858
+Pre-training layer 2, epoch 38, cost -19.722251606
+Pre-training layer 2, epoch 39, cost -19.6948003648
+Pre-training layer 2, epoch 40, cost -19.6836465797
+Pre-training layer 2, epoch 40, representative training free energy -32020.5159633
+Pre-training layer 2, epoch 40, validation free energy -31520.4888018
+Pre-training layer 2, epoch 41, cost -19.6616260618
+Pre-training layer 2, epoch 42, cost -19.6349231955
+Pre-training layer 2, epoch 43, cost -19.6077679946
+Pre-training layer 2, epoch 44, cost -19.5767909711
+Pre-training layer 2, epoch 45, cost -19.5841589603
+Pre-training layer 2, epoch 45, representative training free energy -32512.0921074
+Pre-training layer 2, epoch 45, validation free energy -31993.8633369
+Pre-training layer 2, epoch 46, cost -19.5671738148
+Pre-training layer 2, epoch 47, cost -19.5308799248
+Pre-training layer 2, epoch 48, cost -19.5129860649
+Pre-training layer 2, epoch 49, cost -19.4887914708
+Pre-training layer 2, epoch 50, cost -19.497938996
+Pre-training layer 2, epoch 50, representative training free energy -32931.0381115
+Pre-training layer 2, epoch 50, validation free energy -32433.0274242
+Pre-training layer 2, epoch 51, cost -19.4818069833
+Pre-training layer 2, epoch 52, cost -19.4845393842
+Pre-training layer 2, epoch 53, cost -19.4441950868
+Pre-training layer 2, epoch 54, cost -19.4404490528
+Pre-training layer 2, epoch 55, cost -19.4268307139
+Pre-training layer 2, epoch 55, representative training free energy -33365.3443039
+Pre-training layer 2, epoch 55, validation free energy -32823.3167875
+Pre-training layer 2, epoch 56, cost -19.3977821681
+Pre-training layer 2, epoch 57, cost -19.3685099551
+Pre-training layer 2, epoch 58, cost -19.3944797319
+Pre-training layer 2, epoch 59, cost -19.3750713895
+Pre-training layer 2, epoch 60, cost -19.3380484123
+Pre-training layer 2, epoch 60, representative training free energy -33652.8129219
+Pre-training layer 2, epoch 60, validation free energy -33105.6613594
+Pre-training layer 2, epoch 61, cost -19.3313894068
+Pre-training layer 2, epoch 62, cost -19.3064560509
+Pre-training layer 2, epoch 63, cost -19.3233172569
+Pre-training layer 2, epoch 64, cost -19.3074438318
+Pre-training layer 2, epoch 65, cost -19.2952659117
+Pre-training layer 2, epoch 65, representative training free energy -33991.710476
+Pre-training layer 2, epoch 65, validation free energy -33457.9783025
+Pre-training layer 2, epoch 66, cost -19.2653087152
+Pre-training layer 2, epoch 67, cost -19.2736727435
+Pre-training layer 2, epoch 68, cost -19.2422510719
+Pre-training layer 2, epoch 69, cost -19.2654740982
+Pre-training layer 2, epoch 70, cost -19.2423977388
+Pre-training layer 2, epoch 70, representative training free energy -34440.4223652
+Pre-training layer 2, epoch 70, validation free energy -33892.2787648
+Pre-training layer 2, epoch 71, cost -19.2191149406
+Pre-training layer 2, epoch 72, cost -19.2226467183
+Pre-training layer 2, epoch 73, cost -19.2212824395
+Pre-training layer 2, epoch 74, cost -19.2242076607
+Pre-training layer 2, epoch 75, cost -19.1678117123
+Pre-training layer 2, epoch 75, representative training free energy -34750.1761953
+Pre-training layer 2, epoch 75, validation free energy -34204.4588365
+Pre-training layer 2, epoch 76, cost -19.1952445081
+Pre-training layer 2, epoch 77, cost -19.158525575
+Pre-training layer 2, epoch 78, cost -19.1806323853
+Pre-training layer 2, epoch 79, cost -19.1470361106
+Pre-training layer 2, epoch 80, cost -19.1307602666
+Pre-training layer 2, epoch 80, representative training free energy -35196.3349998
+Pre-training layer 2, epoch 80, validation free energy -34637.7036404
+Pre-training layer 2, epoch 81, cost -19.148396307
+Pre-training layer 2, epoch 82, cost -19.0963391196
+Pre-training layer 2, epoch 83, cost -19.1167677631
+Pre-training layer 2, epoch 84, cost -19.0870049979
+Pre-training layer 2, epoch 85, cost -19.1004201012
+Pre-training layer 2, epoch 85, representative training free energy -35095.699766
+Pre-training layer 2, epoch 85, validation free energy -34530.4596582
+Pre-training layer 2, epoch 86, cost -19.092524676
+Pre-training layer 2, epoch 87, cost -19.0785957667
+Pre-training layer 2, epoch 88, cost -19.0826613763
+Pre-training layer 2, epoch 89, cost -19.0760936985
+Pre-training layer 2, epoch 90, cost -19.0632091242
+Pre-training layer 2, epoch 90, representative training free energy -35686.0000936
+Pre-training layer 2, epoch 90, validation free energy -35104.1215648
+Pre-training layer 2, epoch 91, cost -19.0650230274
+Pre-training layer 2, epoch 92, cost -19.0463040212
+Pre-training layer 2, epoch 93, cost -19.0375697562
+Pre-training layer 2, epoch 94, cost -19.0014117266
+Pre-training layer 2, epoch 95, cost -19.0373760268
+Pre-training layer 2, epoch 95, representative training free energy -35704.4722289
+Pre-training layer 2, epoch 95, validation free energy -35122.7753029
+Pre-training layer 2, epoch 96, cost -19.0023528175
+Pre-training layer 2, epoch 97, cost -19.0170966078
+Pre-training layer 2, epoch 98, cost -18.9981946443
+Pre-training layer 2, epoch 99, cost -19.020074571
+The pretraining code for file dbn_loop.pyc ran for 3.56m... getting the finetuning functions... finetuning the model
+epoch 1, minibatch 1500/1500, validation error 9.200000 %
+     epoch 1, minibatch 1500/1500, test error of best model 10.320000 %
+epoch 2, minibatch 1500/1500, validation error 7.700000 %
+     epoch 2, minibatch 1500/1500, test error of best model 8.940000 %
+epoch 3, minibatch 1500/1500, validation error 7.180000 %
+     epoch 3, minibatch 1500/1500, test error of best model 8.160000 %
+epoch 4, minibatch 1500/1500, validation error 6.660000 %
+     epoch 4, minibatch 1500/1500, test error of best model 7.700000 %
+epoch 5, minibatch 1500/1500, validation error 6.340000 %
+     epoch 5, minibatch 1500/1500, test error of best model 7.400000 %
+epoch 6, minibatch 1500/1500, validation error 6.060000 %
+     epoch 6, minibatch 1500/1500, test error of best model 7.220000 %
+epoch 7, minibatch 1500/1500, validation error 5.860000 %
+     epoch 7, minibatch 1500/1500, test error of best model 6.820000 %
+epoch 8, minibatch 1500/1500, validation error 5.600000 %
+     epoch 8, minibatch 1500/1500, test error of best model 6.580000 %
+epoch 9, minibatch 1500/1500, validation error 5.640000 %
+epoch 10, minibatch 1500/1500, validation error 5.480000 %
+     epoch 10, minibatch 1500/1500, test error of best model 6.380000 %
+epoch 11, minibatch 1500/1500, validation error 5.320000 %
+     epoch 11, minibatch 1500/1500, test error of best model 6.260000 %
+epoch 12, minibatch 1500/1500, validation error 5.180000 %
+     epoch 12, minibatch 1500/1500, test error of best model 6.100000 %
+epoch 13, minibatch 1500/1500, validation error 5.120000 %
+     epoch 13, minibatch 1500/1500, test error of best model 5.900000 %
+epoch 14, minibatch 1500/1500, validation error 5.020000 %
+     epoch 14, minibatch 1500/1500, test error of best model 5.840000 %
+epoch 15, minibatch 1500/1500, validation error 4.920000 %
+     epoch 15, minibatch 1500/1500, test error of best model 5.700000 %
+epoch 16, minibatch 1500/1500, validation error 4.800000 %
+     epoch 16, minibatch 1500/1500, test error of best model 5.640000 %
+epoch 17, minibatch 1500/1500, validation error 4.780000 %
+     epoch 17, minibatch 1500/1500, test error of best model 5.640000 %
+epoch 18, minibatch 1500/1500, validation error 4.640000 %
+     epoch 18, minibatch 1500/1500, test error of best model 5.660000 %
+epoch 19, minibatch 1500/1500, validation error 4.620000 %
+     epoch 19, minibatch 1500/1500, test error of best model 5.620000 %
+epoch 20, minibatch 1500/1500, validation error 4.560000 %
+     epoch 20, minibatch 1500/1500, test error of best model 5.560000 %
+epoch 21, minibatch 1500/1500, validation error 4.560000 %
+epoch 22, minibatch 1500/1500, validation error 4.480000 %
+     epoch 22, minibatch 1500/1500, test error of best model 5.500000 %
+epoch 23, minibatch 1500/1500, validation error 4.460000 %
+     epoch 23, minibatch 1500/1500, test error of best model 5.440000 %
+epoch 24, minibatch 1500/1500, validation error 4.480000 %
+epoch 25, minibatch 1500/1500, validation error 4.460000 %
+epoch 26, minibatch 1500/1500, validation error 4.440000 %
+     epoch 26, minibatch 1500/1500, test error of best model 5.420000 %
+epoch 27, minibatch 1500/1500, validation error 4.440000 %
+epoch 28, minibatch 1500/1500, validation error 4.440000 %
+epoch 29, minibatch 1500/1500, validation error 4.380000 %
+     epoch 29, minibatch 1500/1500, test error of best model 5.300000 %
+epoch 30, minibatch 1500/1500, validation error 4.380000 %
+epoch 31, minibatch 1500/1500, validation error 4.380000 %
+     epoch 31, minibatch 1500/1500, test error of best model 5.380000 %
+epoch 32, minibatch 1500/1500, validation error 4.360000 %
+     epoch 32, minibatch 1500/1500, test error of best model 5.420000 %
+epoch 33, minibatch 1500/1500, validation error 4.340000 %
+     epoch 33, minibatch 1500/1500, test error of best model 5.400000 %
+epoch 34, minibatch 1500/1500, validation error 4.340000 %
+epoch 35, minibatch 1500/1500, validation error 4.340000 %
+epoch 36, minibatch 1500/1500, validation error 4.340000 %
+     epoch 36, minibatch 1500/1500, test error of best model 5.340000 %
+epoch 37, minibatch 1500/1500, validation error 4.300000 %
+     epoch 37, minibatch 1500/1500, test error of best model 5.320000 %
+epoch 38, minibatch 1500/1500, validation error 4.300000 %
+epoch 39, minibatch 1500/1500, validation error 4.300000 %
+epoch 40, minibatch 1500/1500, validation error 4.300000 %
+epoch 41, minibatch 1500/1500, validation error 4.280000 %
+     epoch 41, minibatch 1500/1500, test error of best model 5.320000 %
+epoch 42, minibatch 1500/1500, validation error 4.300000 %
+epoch 43, minibatch 1500/1500, validation error 4.300000 %
+epoch 44, minibatch 1500/1500, validation error 4.280000 %
+epoch 45, minibatch 1500/1500, validation error 4.220000 %
+     epoch 45, minibatch 1500/1500, test error of best model 5.280000 %
+epoch 46, minibatch 1500/1500, validation error 4.240000 %
+epoch 47, minibatch 1500/1500, validation error 4.220000 %
+epoch 48, minibatch 1500/1500, validation error 4.200000 %
+     epoch 48, minibatch 1500/1500, test error of best model 5.120000 %
+epoch 49, minibatch 1500/1500, validation error 4.200000 %
+epoch 50, minibatch 1500/1500, validation error 4.220000 %
+epoch 51, minibatch 1500/1500, validation error 4.220000 %
+epoch 52, minibatch 1500/1500, validation error 4.220000 %
+epoch 53, minibatch 1500/1500, validation error 4.240000 %
+epoch 54, minibatch 1500/1500, validation error 4.240000 %
+epoch 55, minibatch 1500/1500, validation error 4.260000 %
+epoch 56, minibatch 1500/1500, validation error 4.260000 %
+epoch 57, minibatch 1500/1500, validation error 4.280000 %
+epoch 58, minibatch 1500/1500, validation error 4.300000 %
+epoch 59, minibatch 1500/1500, validation error 4.300000 %
+epoch 60, minibatch 1500/1500, validation error 4.280000 %
+epoch 61, minibatch 1500/1500, validation error 4.300000 %
+epoch 62, minibatch 1500/1500, validation error 4.300000 %
+epoch 63, minibatch 1500/1500, validation error 4.300000 %
+epoch 64, minibatch 1500/1500, validation error 4.300000 %
+epoch 65, minibatch 1500/1500, validation error 4.300000 %
+epoch 66, minibatch 1500/1500, validation error 4.300000 %
+epoch 67, minibatch 1500/1500, validation error 4.320000 %
+epoch 68, minibatch 1500/1500, validation error 4.320000 %
+epoch 69, minibatch 1500/1500, validation error 4.320000 %
+epoch 70, minibatch 1500/1500, validation error 4.300000 %
+epoch 71, minibatch 1500/1500, validation error 4.260000 %
+epoch 72, minibatch 1500/1500, validation error 4.280000 %
+epoch 73, minibatch 1500/1500, validation error 4.280000 %
+epoch 74, minibatch 1500/1500, validation error 4.260000 %
+epoch 75, minibatch 1500/1500, validation error 4.260000 %
+epoch 76, minibatch 1500/1500, validation error 4.240000 %
+epoch 77, minibatch 1500/1500, validation error 4.260000 %
+epoch 78, minibatch 1500/1500, validation error 4.260000 %
+epoch 79, minibatch 1500/1500, validation error 4.280000 %
+epoch 80, minibatch 1500/1500, validation error 4.280000 %
+epoch 81, minibatch 1500/1500, validation error 4.280000 %
+epoch 82, minibatch 1500/1500, validation error 4.300000 %
+epoch 83, minibatch 1500/1500, validation error 4.300000 %
+epoch 84, minibatch 1500/1500, validation error 4.300000 %
+epoch 85, minibatch 1500/1500, validation error 4.300000 %
+epoch 86, minibatch 1500/1500, validation error 4.300000 %
+epoch 87, minibatch 1500/1500, validation error 4.300000 %
+epoch 88, minibatch 1500/1500, validation error 4.320000 %
+epoch 89, minibatch 1500/1500, validation error 4.320000 %
+Optimization complete with best validation score of 4.200000 %, obtained at iteration 72000, with test performance 5.120000 %
+The fine tuning code for file dbn_loop.pyc ran for 0.86m
